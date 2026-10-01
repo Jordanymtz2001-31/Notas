@@ -1,0 +1,1 @@
+Por que ahora solo se puede colocar una sola tallar por variantes, a menos que cree otra variantes muy similar y solo cambie la talla y/o precio, tendria que investigar si esta bien asi no?

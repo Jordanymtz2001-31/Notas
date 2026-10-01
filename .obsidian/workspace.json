@@ -1,0 +1,313 @@
+{
+  "main": {
+    "id": "086a46728fdb9ec7",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a97613a2d4d95be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c67ca8d460ef779",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          },
+          {
+            "id": "372b3a22c31c6a2d",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "06- 📝 OneNote/☕ Repaso de Java (Spring Boot)/Java/Preguntas de Java para entrevistas.md",
+                "bFile": "06- 📝 OneNote/☕ Repaso de Java (Spring Boot)/Java/Preguntas de Java para entrevistas.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Preguntas de Java para entrevistas  (Working Tree)"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb270bb52ee593c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e536bec254b61d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ada15607b6dc7a77",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "47acc845df1c4fdd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#backlog",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "fd8ee11789b2ee55",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 278.84375
+  },
+  "right": {
+    "id": "004a1dedb08ece95",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc553bd72bbfb31c",
+        "type": "tabs",
+        "dimension": 67.03601108033241,
+        "children": [
+          {
+            "id": "162e8e186a911046",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02-Diario/02-Pleneacion y reflexion.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de 02-Pleneacion y reflexion"
+            }
+          },
+          {
+            "id": "64509d3963216362",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02-Diario/09-Pruebas de propiedad con jqwik.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "934c777a88469ed5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "1b39ecad9f000f95",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "b5b2384e81655f8d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02-Diario/12-Cursos de Ingles.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          },
+          {
+            "id": "48fc2ef883d30348",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "9a477c1ab61f68e8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "07bf32c2f881754b",
+            "type": "leaf",
+            "state": {
+              "type": "opencode-conversations",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "opencode-conversations"
+            }
+          },
+          {
+            "id": "0e91737f342369d7",
+            "type": "leaf",
+            "state": {
+              "type": "opencode-terminal",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "opencode-terminal"
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "059d9e615bfa9643",
+        "type": "tabs",
+        "dimension": 32.96398891966759,
+        "children": [
+          {
+            "id": "f8b1eb942d41f5dc",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 353.0859375
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Abrir vista gráfica": false,
+      "switcher:Abrir selector rápido": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-importer:Importar notas": false,
+      "opencode:Opencode terminal": false,
+      "opencode:Opencode conversations": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "372b3a22c31c6a2d",
+  "lastOpenFiles": [
+    "06- 📝 OneNote/☕ Repaso de Java (Spring Boot)/Java/Preguntas de Java para entrevistas.md",
+    "06- 📝 OneNote/📐 PATRONES DE DISEÑO/Patrones De comportamiento/¿Cómo se comportan los objetos.md",
+    "AGENTS.md",
+    "06- 📝 OneNote/📐 PATRONES DE DISEÑO/Patrones Estructurales/¿Cómo se relacionan los objetos.md",
+    "06- 📝 OneNote/📐 PATRONES DE DISEÑO/Patrones Creacionales/¿Cómo se crean los objetos.md",
+    "06- 📝 OneNote/☕ Repaso de Java (Spring Boot)/AGENTS.md",
+    "02- 📓 Diario/12-Cursos de Ingles.md",
+    "02- 📓 Diario/11-Backlog.md",
+    "02- 📓 Diario/10-Curso IBM SkillsBuild.md",
+    "02- 📓 Diario/14-Comandos de Fedora 44 | Linux.md",
+    "03-Reflexiones/Ingles con Francisco Ochoa Inglés Fácil.md",
+    "06- 📝 OneNote/🅰️ Proyecto Angular/Teoria de Angular/Angular.md",
+    "01- 🏗️ Proyecto/001-Ecomerce/001.1-INDICE DE DUDAS GLOBALES.md",
+    "03-Reflexiones/01-0. Duda N.2 Por que en una clase no tiene unique_together?.md",
+    "01- 🏗️ Proyecto/005-Cursos de Aprendizaje.md",
+    "03-Reflexiones/01-0. Duda N.1 Para que sirven los metodo concretos de la clase Producto.md",
+    "02- 📓 Diario/01-Planeacion Retrasado Globales.md",
+    "03-Reflexiones/01-10.Revisar el Bug de stock de Variantes.md",
+    "01- 🏗️ Proyecto/001-Ecomerce/001-Ecomerce.md",
+    "03-Reflexiones/01-0. Duda N.3 Llave Foranea entre \" \"?.md",
+    "03-Reflexiones/02-Estereotipos.md",
+    "05-Contenido_TikTok/02-Imagenes_FOndo/1.mp4",
+    "05-Contenido_TikTok/02-Imagenes_FOndo/915283975-uhd_2160_3840_60fps.mp4",
+    "05-Contenido_TikTok/04-Videos_Finales/09_After Dark - Mr.Kitty.kdenlive.AjUqwe",
+    "05-Contenido_TikTok/04-Videos_Finales/09_After Dark - Mr.Kitty.mp4",
+    "05-Contenido_TikTok/04-Videos_Finales/09_After Dark - Mr.Kitty.kdenlive",
+    "05-Contenido_TikTok/04-Videos_Finales/09_After Dark - Mr.Kitty.kdenlive.FsuEQb",
+    "05-Contenido_TikTok/02-Imagenes_FOndo/99921013-uhd_2160_3840_30fps.mp4",
+    "05-Contenido_TikTok/03-Portadas/9.jpeg",
+    "05-Contenido_TikTok/Lista de Canciones.md",
+    "05-Contenido_TikTok/04-Videos_Finales/02_hey r u comming round?.mp4",
+    "05-Contenido_TikTok/04-Videos_Finales/01_Otozure_Tricot.mp4",
+    "02- 📓 Diario/15-Fit.md",
+    "02- 📓 Diario/13.Pruebas de Propiedad con Jqwik - Servicio_Alumno.md",
+    "05-Contenido_TikTok/04-Videos_Finales/08_sinner - Max Fry.mp4",
+    "02- 📓 Diario/09-Pruebas de propiedad con jqwik - Servicio_Profesor.md",
+    "06- 📝 OneNote/☕ Repaso de Java (Spring Boot)/Spring Boot/Preguntas de Spring para entrevistas.md",
+    "05-Contenido_TikTok/03-Portadas/10.jpeg",
+    "05-Contenido_TikTok/03-Portadas/8.jpeg",
+    "05-Contenido_TikTok/03-Portadas/7.jpeg",
+    "05-Contenido_TikTok/03-Portadas/6.jpeg",
+    "05-Contenido_TikTok/03-Portadas/5.jpeg",
+    "05-Contenido_TikTok/03-Portadas/images.jpeg",
+    "05-Contenido_TikTok/03-Portadas/4.jpeg",
+    "Angular image b3084bcb9f12dfa0.png",
+    "05-Contenido_TikTok/03-Portadas/3.jpeg",
+    "Sin título.canvas"
+  ]
+}
