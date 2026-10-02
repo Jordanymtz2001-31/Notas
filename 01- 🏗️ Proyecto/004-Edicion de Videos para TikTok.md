@@ -15,7 +15,7 @@
 
 
 ## 📝 Notas Relacionadas
-*Usa [[NombreDeLaNota]] para enlazar notas de reuniones, ideas o especificaciones de este proyecto.*
+*Usa `[[NombreDeLaNota]]` para enlazar notas de reuniones, ideas o especificaciones de este proyecto.*
 - 
 
 ---

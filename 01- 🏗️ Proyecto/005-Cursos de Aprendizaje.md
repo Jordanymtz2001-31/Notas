@@ -23,7 +23,7 @@
 - **Links**: https://skills.yourlearning.ibm.com/activity/PLAN-BAEFCCAAD520?focuslmsId=ALM-COURSE_3955079
 
 ## 📝 Notas Relacionadas
-*Usa [[NombreDeLaNota]] para enlazar notas de reuniones, ideas o especificaciones de este proyecto.*
+*Usa `[[NombreDeLaNota]]` para enlazar notas de reuniones, ideas o especificaciones de este proyecto.*
 - 
 
 ---

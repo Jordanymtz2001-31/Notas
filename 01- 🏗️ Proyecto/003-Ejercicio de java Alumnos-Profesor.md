@@ -20,7 +20,7 @@
 - **Documentación:** 
 
 ## 📝 Notas Relacionadas
-*Usa [[NombreDeLaNota]] para enlazar notas de reuniones, ideas o especificaciones de este proyecto.*
+*Usa `[[NombreDeLaNota]]` para enlazar notas de reuniones, ideas o especificaciones de este proyecto.*
 - Me di cuenta que para imprimir los mensaje para adquirir la informacion puedo crear un metodos global y ese mismo imprime el mensaje y captura los datos del usuario. Esto ahorra tiempo de codigo y podria yo decir que es modular.
 
 ---

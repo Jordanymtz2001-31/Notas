@@ -1,0 +1,22 @@
+# Estado de la interfaz de Obsidian: cambia en cada sesión y solo ensucia el diff
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/cache
+
+# Papelera de Obsidian: prohibido leer, escribir o restaurar
+.trash/
+
+# Multimedia pesada: se queda en disco, pero no se versiona
+# (el histórico antiguo conserva los que ya estaban commiteados).
+# No se ignora la carpeta entera: sus .md y .jpeg sí se versionan.
+*.mp4
+*.mp3
+*.mov
+*.kdenlive
+*.mkv
+*.wav
+
+# Sistema
+.DS_Store
+Thumbs.db

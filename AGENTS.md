@@ -7,7 +7,8 @@ carpeta concreta viven en el `AGENTS.md` de esa carpeta, que tiene prioridad sob
 ## Identidad del vault
 
 - Es un **vault de Obsidian**personal de estudio, en español.
-- No es un repositorio git. No hay build, lint ni tests que correr.
+- Es un repositorio git con auto-commit local cada 5 minutos (plugin `obsidian-git`). **Sin remoto:**
+  no hagas `push`, no hay dónde. No hay build, lint ni tests que correr.
 - La carpeta `.opencode/` y este archivo son configuración del agente, no contenido del vault.
 
 ## Estructura
@@ -15,8 +16,8 @@ carpeta concreta viven en el `AGENTS.md` de esa carpeta, que tiene prioridad sob
 | Carpeta | Contenido |
 | :--- | :--- |
 | `01- 🏗️ Proyecto/` | Proyectos reales. Un subdirectorio por proyecto. |
-| `02- 📓 Diario/` | Planeación diaria y bitácora. Notas numeradas `NN-Título.md`. |
-| `03-Reflexiones/` | Dudas técnicas puntuales. Notas numeradas `NN-Título.md`. |
+| `02- 📓 Diario/` | Planeación diaria (`YYYY-MM-DD.md`) y bitácora (`NN-Título.md`). |
+| `03-Reflexiones/` | Dudas y reflexiones, **plano** (el tema va en `categoria:`, no en subcarpetas). Notas `NN-Título.md`. |
 | `04-Plantillas/` | Plantillas base. **No editar las plantillas, crear notas a partir de ellas.** |
 | `05-Contenido_TikTok/` | Guiones y listas de contenido. |
 | `06- 📝 OneNote/` | Archivo histórico importado de OneNote. 2 niveles: `<Tema emoji>/<Subtema>/<Nota>.md`. |
@@ -84,6 +85,73 @@ Sintaxis del plugin **Tasks** (`.obsidian/plugins/obsidian-tasks-plugin`):
 - **Todo fence abierto debe cerrarse.** Antes de terminar una nota, cuenta los fences: debe ser un
   número par. Un fence sin cerrar se traga todo el contenido que se agregue después.
 - Títulos de sección con emoji representativo del tema: `## 🏗️ Construcción`, `## 🔐 Seguridad`.
+
+## Creación de notas
+
+**Nunca crees una nota sin proponer primero el destino y la plantilla en una sola pregunta.**
+Primero identifica de qué se trata, arma la propuesta concreta (carpeta + plantilla + nombre) y
+espera el sí del usuario. No preguntes en dos pasos.
+
+| Lo que es | Carpeta | Plantilla | Nombre |
+| :--- | :--- | :--- | :--- |
+| **Duda** / "no entiendo X" / concepto que quiero entender | `03-Reflexiones/` | `Dudas y Reflexiones.md` | `NN-Título.md` |
+| **Reflexión** / desarrollo de un tema | `03-Reflexiones/` | `Dudas y Reflexiones.md` | `NN-Título.md` |
+| **Material de consulta** de una tecnología: comandos, pasos, diferencias, teoría | `06- 📝 OneNote/<Tema>/<Subtema>/` | — nota suelta | `<Título>.md` |
+| **Nuevo proyecto** | `01- 🏗️ Proyecto/` | `Proyecto.md` | `NNN-Título.md` |
+| **Planeación** de un día concreto | `02- 📓 Diario/` | `Diario.md` | `YYYY-MM-DD.md` |
+| **Tema suelto** del diario (bitácora, comandos, listas) | `02- 📓 Diario/` | — nota suelta | `NN-Título.md` |
+| "Lo estudio después", sin haber empezado | **No se crea nota** | tarea en `02- 📓 Diario/11-Backlog.md` con `#backlog` | — |
+
+- La decisión es por la **naturaleza del contenido**, no por el tema. El mismo tema puede vivir en
+  dos carpetas: una explica, la otra desarrolla tu experiencia. Ver `## Vinculación Reflexiones y OneNote`.
+- **El número `NN` es el siguiente libre de esa carpeta.** Se calcula listando la carpeta, tomando
+  el prefijo numérico más alto y sumando 1. Con dos dígitos en `03-Reflexiones/` y
+  `02- 📓 Diario/`, con tres en `01- 🏗️ Proyecto/`.
+- **No se renumeran** las notas existentes: cada lote conserva su prefijo.
+- Duda y reflexión comparten plantilla; solo cambia la propiedad `tipo`
+  (`duda-investigacion` / `reflexion`).
+- **Nunca** crear notas en la raíz del vault ni dentro de `04-Plantillas/`.
+
+## Vinculación Reflexiones y OneNote
+
+`06- 📝 OneNote` es el archivo de referencia **por tecnología**; `03-Reflexiones/` es la
+investigación **personal** con pregunta, fuentes y conclusión. Un concepto puede estar en ambas, y
+en ese caso **una enlaza a la otra sin duplicar el desarrollo**.
+
+* **En OneNote → Reflexiones:** junto al concepto, una línea dentro de un callout:
+
+  ```markdown
+  > [!tip] **Primary Key**
+  > Definición corta, a modo de recordatorio.
+  > Para más detalles de mi experiencia revisa [[03-Primary Key]]
+  ```
+
+* **En Reflexiones → OneNote:** en el frontmatter, con las propiedades que ya trae la plantilla:
+
+  ```yaml
+  categoria: "🗄️ DB → SQL"
+  fuente_origen: "[[Preguntas de SQL para entrevistas]]"
+  ```
+
+* `categoria` es el **tema** de OneNote donde encaja. `03-Reflexiones/` es **plano**: el tema va en
+  `categoria`, nunca en subcarpetas.
+* Si el tema **no tiene carpeta** en OneNote, **pregunta si crearla**. No la crees por tu cuenta.
+* Si la nota de Reflexión ya está resuelta, marcar `estatus` en el frontmatter.
+
+## Verificación de afirmaciones
+
+Antes de **corregir al usuario** o de **escribir un hecho técnico** en una nota, contrástalo con la
+fuente oficial y cita esa fuente.
+
+* **Fuente oficial primero:** JLS (Java), documentación de Spring, MDN (web), PostgreSQL, RFC,
+  docs de la herramienta. Después libros o tutoriales. Un blog de desconocido no sirve como prueba.
+* Si no puedes verificarlo, dilo explícitamente: `Sin verificar: ...`. Nunca lo presentes como cierto.
+* **Alcance: solo hechos técnicos.** Se verifica cuando (a) vas a corregir algo que dijo el usuario,
+  (b) vas a escribir un hecho técnico en una nota de estudio, o (c) el usuario afirma un hecho
+  técnico. No verifiques cada frase de la conversación.
+* Si la fuente contradice al usuario, **repórtalo y deja que él decida**. Nunca lo arregles en silencio.
+* Si contradice algo ya escrito en una nota, repórtalo como hallazgo con la ruta de la nota,
+  sin editar hasta que lo apruebe.
 
 ## Reglas de edición
 

@@ -17,7 +17,8 @@ mismos criterios, en el mismo orden, para que el resultado sea comparable entre 
 Úsala cuando pidan revisar, corregir, auditar o depurar notas de un minibaúl: "revísame el
 minibaúl de Docker", "corrige mis notas de Java", "revisa que estas notas estén bien".
 
-**No la uses** para crear una nota nueva. Para eso aplican directamente las reglas de `AGENTS.md`.
+**No la uses** para crear una nota nueva. Para eso está la skill `nueva-nota`, que elige carpeta,
+plantilla y número; aquí solo se revisa lo que ya existe.
 
 ## Entradas
 
@@ -70,6 +71,17 @@ confirmar; no edites lo discutible.**
 Regla de oro: si un enunciado es claramente falso o desactualizado y la corrección es inequívoca,
 corrígelo. Si es una cuestión de opinión, de versión o de estilo técnico, **no lo toques** y repórtalo
 en la sección de hallazgos.
+
+**Antes de dar una corrección por buena, búscala en la fuente oficial y cítala:** JLS para Java,
+documentación de Spring para Spring Boot, MDN para web, PostgreSQL para SQL, los docs de la
+herramienta para lo demás. Un blog anónimo no sirve como prueba. Si no encuentras la fuente, no
+corrijas: repórtalo como `Sin verificar: ...` y deja la decisión al usuario.
+
+- Orden de preferencia: **documentación oficial → libro técnico → tutorial → blog**.
+- Si la fuente oficial contradice algo ya escrito en la nota, repórtalo con la ruta de la nota y
+  **no edites hasta que el usuario lo apruebe**.
+- Si contradice lo que dijo el usuario en la conversación, repórtalo y que él decida. Nada de
+  arreglar en silencio.
 
 Puntos que ya se han detectado en este vault, para no volver a tropezar:
 

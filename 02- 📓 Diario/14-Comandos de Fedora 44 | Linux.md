@@ -67,7 +67,8 @@ fuente_origen: Con la IA de Google
 >
 >
 > ## 💠 Gestion de contraseñas 
-> * Conexion para Oracle(name: FREE): 15963
+> * Conexion para Oracle con usuario root (user: system, dataBase: FREE): 15963
+> * Conexion para Oracle con usuario MLRB (dataBase; FREE): 
 
 ---
 

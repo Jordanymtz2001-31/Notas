@@ -1,1 +1,0 @@
-Revisar por que en el nombre del usuario no deja colocar mas de una Palabra, al parecer es por el espacio que no deja crear la cuenta
