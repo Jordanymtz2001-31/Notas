@@ -47,7 +47,9 @@ carpeta concreta viven en el `AGENTS.md` de esa carpeta, que tiene prioridad sob
 
 ## Callouts
 
-Formato con título en negrita, y `>` al final de la primera línea para continuar:
+Formato con título en negrita. El título va justo después de `] ` y **todas las líneas del bloque
+empiezan con `>`**. El `>` va al **inicio** de cada línea, nunca al final del título: si cierras la
+línea de título con `>`, ese `>` se queda dentro del título y se ve al renderizar.
 
 ```markdown
 > [!tip] **Título en negrita**
@@ -59,10 +61,15 @@ Tipos válidos, **siempre en minúscula**: `note`, `abstract`, `info`, `todo`, `
 
 - **Minúscula siempre.** `> [!NOTE]`, `> [!WARNING]`, `> [!IMPORTANT]` funcionan en Obsidian, pero
   no son idiomáticos en este vault. Es cuestión de estilo, no de validez.
-- `important`, `hint` y `tldr` son **alias válidos** de `tip`, pero no están en la lista de arriba.
-  Antes de un alias, prefiere `tip` o `warning`.
-- **Inválidos:** cualquier tipo inventado (`hotel`, `peligro`, `importante`). Se renderizan como cita
-  plana, sin color ni plegado. Una etiqueta en vez de un tipo va **después**: `> [!info] Alias`.
+- **Alias** (equivalen al tipo base; usa el tipo base salvo que la nota ya lo use así):
+  `abstract` → `summary`, `tldr` · `tip` → `hint`, `important` · `success` → `check`, `done` ·
+  `question` → `help`, `faq` · `warning` → `caution`, `attention` · `failure` → `fail`, `missing` ·
+  `danger` → `error` · `quote` → `cite`.
+- **Tipos no listados** (`hotel`, `peligro`, `code`, …) **caen al estilo de `note`**, según la
+  fuente oficial: *"any unsupported type defaults to the `note` type"*. No rompen, pero no tienen
+  ni el color ni el icono propios del tipo que creías elegir.
+- **Inválido del todo:** usar mayúsculas en el tipo (`[!TIP]`) sí funciona en Obsidian, pero no es
+  idiomático aquí. Una etiqueta en vez de un tipo va **después**: `> [!info] Alias`.
 - Todo bloque de líneas que sigue al `>` inicial debe llevar `>` al inicio. Si una línea se queda
   sin `>`, el callout se corta y el texto se sale del bloque.
 

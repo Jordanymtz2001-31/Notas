@@ -2,6 +2,8 @@
 
 - [[Conceptos que voy aprendiendo]]
 - [[Preguntas de SQL para entrevistas]]
+- [[2 tipos de usuarios en DBeaver]]
+- [[El Usuario en Oracle]]
 - [[Orden para dockerizar nuestros Proyecto]]
 - [[Para no ocupar espacio local]]
 - [[Comandos normalmente usados]]

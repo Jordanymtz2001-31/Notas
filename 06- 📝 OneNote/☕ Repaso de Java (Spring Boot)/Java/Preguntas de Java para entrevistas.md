@@ -48,7 +48,7 @@ En Java nativo existen unos cuantos y en Spring Boot otros; para más detalles c
 * **Objeto:** Es la **instancia concreta** y física creada a partir de una clase al ejecutarse el programa. 
 * **Constructor:** Método especial de una clase encargado de inicializar los atributos del objeto. Se ejecuta en automático al instanciar la clase con la palabra clave `new`.
 
-> [!important] **¿Por qué es indispensable el Constructor?**>
+> [!important] **¿Por qué es indispensable el Constructor?**
 > Garantiza y asegura que los objetos "nazcan" con datos válidos, correctos y listos para trabajar, blindando el sistema contra errores de valores nulos (`NullPointerException`) y haciendo el código más claro.
 
 ### 🔢 Valores por defecto de los atributos
@@ -71,7 +71,7 @@ Los valores concretos dependen del tipo declarado:
 | `char` | `'\u0000'` |
 | Referencias (`String`, objetos, arrays) | `null` |
 
-> [!warning] **La trampa de `static`**>
+> [!warning] **La trampa de `static`**
 > `static int contador;` **sí** vale `0`, no "vale lo que hubiera en memoria". Lo que hace `static` es que ese `0` se asigne **una única vez al inicializar la clase** y luego se comparta entre todos los objetos que usen esa clase. Declarar `static int contador = 0;` no cambia el valor inicial, pero deja la intención explícita y evita la pregunta en el código.
 >
 > Donde de verdad **no** existe valor por defecto son las **variables locales** y los **parámetros de método**: ahí el compilador te obliga a inicializar, y si no lo haces el programa **no compila**.
@@ -91,7 +91,7 @@ class Contador {
 }
 ```
 
-> [!important] **Frase para la entrevista**>
+> [!important] **Frase para la entrevista**
 > "En Java todos los atributos reciben un valor por defecto según su tipo, sean de instancia o estáticos. Lo que cambia es el momento: el de instancia se inicializa en cada objeto al usar `new`, y el estático se inicializa una sola vez al cargar la clase y se comparte entre todos los objetos. Lo que sí exige inicialización explícita son las variables locales y los parámetros, y los atributos `final`."
 
 ---
@@ -266,7 +266,7 @@ Son las reglas esenciales de diseño de software orientadas a objetos para const
 
 ## 💼 11. Aplicación Práctica de SOLID en Spring (Casos de Éxito)
 
-> [!tip] **Uso de este bloque en Entrevistas Técnicas**>
+> [!tip] **Uso de este bloque en Entrevistas Técnicas**
 > Defender estos puntos demuestra experiencia real aplicando arquitectura limpia sobre el framework de Spring.
 
 ### 🔹 SRP (Single Responsibility) en la Arquitectura por Capas

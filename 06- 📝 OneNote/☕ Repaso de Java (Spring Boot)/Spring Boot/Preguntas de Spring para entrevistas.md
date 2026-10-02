@@ -100,7 +100,7 @@ El **Request HTTP** encapsula toda la información y datos que el cliente o fron
 * **Serialización (GET):** Proceso de convertir un objeto de Java a un flujo de bytes o texto. Ocurre cuando el cliente solicita información. Estos datos se transmiten a través de las APIs en formato **JSON** o XML, y también sirven para guardarse en las Bases de Datos.
 * **Deserialización (POST/PUT):** El proceso inverso. Toma los bytes o el texto plano (JSON) enviados por el cliente y reconstruye el objeto a sus datos originales de Java para guardarlos o enviarlos a la base de datos.
 
-> [!note] **Importancia y Beneficios del Proceso**>
+> [!note] **Importancia y Beneficios del Proceso**
 > Funciona como el puente automático, seguro y validado entre la base de datos y las APIs JSON que comunica el Backend con el Frontend.
 > * **❌ Negativo:** Sin este mecanismo, tendríamos que mapear y parsear cada campo de forma manual en el código, generando líneas repetitivas y perdiendo mucho tiempo.
 > * **✅ Positivo:** Permite validaciones automáticas de tipado, conversión a JSON nativa, menor volumen de código y un desarrollo mucho más rápido.
@@ -135,7 +135,7 @@ Para gestionar los errores de forma limpia y mantener el control de los flujos d
 * **`ResponseEntity<T>` (Control Puntual):** Es un contenedor que permite configurar con precisión milimétrica la respuesta HTTP (Cuerpo, Cabeceras y Código de Estado) de forma individual en cada uno de los Endpoints de los controladores.
 * **`@ControllerAdvice` (Control Global):** Permite crear una clase global e independiente dedicada a interceptar y centralizar los errores comunes de toda la aplicación (como fallas de validación o excepciones inesperadas del sistema) en un solo lugar.
 
-> [!tip] **Estrategia Resumida de Arquitectura**>
+> [!tip] **Estrategia Resumida de Arquitectura**
 > Utilizo **`ResponseEntity`** cuando requiero un control preciso y personalizado por cada Endpoint, y delego en **`@ControllerAdvice`** la captura de excepciones globales del sistema para mantener los controladores limpios de bloques `try-catch`. 
 >
 > **Para mejor entendimiento y detalles revisa en [[02-Manejo de Excepciones en Spring Boot]]**
@@ -231,7 +231,7 @@ El **Servlet** es la interfaz estándar de Java encargada de actuar como puente 
 
 Se encarga de recibir las rutas HTTP crudas enviadas por un proxy inverso (como Nginx, que redirige el tráfico hacia el puerto del microservicio) y **convertirlas en objetos nativos de Java** (como nombres de APIs o parámetros de métodos).
 
-> [!info] **Analogía de Ejecución: El Flujo del Hotel**>
+> [!info] **Analogía de Ejecución: El Flujo del Hotel**
 > Imagina un hotel gigante (tu servidor web / Nginx) que cuenta con muchos departamentos u oficinas individuales (tus controladores `@RestController`):
 > 1. **Cliente (Angular):** Envía la solicitud: *"Quiero ver la info del cliente con ID 1"*. (`GET /clientes/api/v1/clientes/123/`)
 > 2. **Hotel (Nginx):** Detecta la ruta `/clientes/`, sabe que le pertenece al microservicio `clientes_ms:8000` y le dice al personal: *"Atiende esto en el puerto 8001"* transfiriendo la ruta tal cual.
@@ -249,7 +249,7 @@ Se encarga de recibir las rutas HTTP crudas enviadas por un proxy inverso (como 
 
 ## 🗄️ 16. Persistencia de Datos: ORM con JPA e Hibernate
 
-> [!abstract] Resumen Rápido>
+> [!abstract] Resumen Rápido
 > No son lo mismo. **ORM** es la técnica teórica, **JPA** es la interfaz estándar (las reglas del juego) e **Hibernate** es la herramienta real (la que ejecuta el código). Trabajan juntos como un equipo para que no tengas que escribir código SQL a mano.
 
 ---
@@ -284,7 +284,7 @@ Hibernate es el **Proveedor de Persistencia (La Implementación Real)**.
 
 ---
 
-> [!abstract] Resumen Rápido>
+> [!abstract] Resumen Rápido
 > - **El ORM** es el concepto o la técnica (la filosofía de mapear objetos a tablas).
 > - **Hibernate es el ORM real**, es decir, el software/motor que hace la magia de traducir tus objetos a código SQL y viceversa.
 > - **JPA son las reglas** (las anotaciones como `@Entity`, `@Table`, `@Id`) que tú defines en tus clases para que Hibernate sepa exactamente qué reglas seguir y cómo hacer el mapeo.
@@ -308,14 +308,14 @@ spring.jpa.hibernate.ddl-auto=update
 ```
 - **¿Cómo funciona la magia?** Al arrancar, **Hibernate** (siguiendo las reglas de **JPA**) escanea tus clases `@Entity`, viaja a tu base de datos física, compara las columnas y ejecuta de forma automática los comandos `ALTER TABLE` necesarios para actualizar las columnas o restricciones que hayas modificado en Java.
 
-> [!warning] **Peligro en Producción**>
+> [!warning] **Peligro en Producción**
 > El modo `update` es excelente para desarrollo y pruebas (como lo usaste con H2), pero en producción está **estrictamente prohibido**, ya que un error en tu código de Java podría borrar o alterar columnas con datos reales de clientes.
 > * ⚠️ En producción la opción correcta es **`validate`**, que comprueba que el esquema de la base de datos coincide con tus clases `@Entity` y **falla al arrancar** si no coincide, sin modificar nada.
 > * ⚠️ Evita también `none`: no valida nada, simplemente le dice a Hibernate que no haga absolutely nada y deja que el error aflore más tarde y en un lugar más difícil de depurar.
 > * La práctica profesional es `validate` combinado con **migraciones controladas** (Flyway o Liquibase), que son las que ejecutan los `ALTER TABLE` de forma versionada y auditable.
 
 
-> [!tip] **INMUTABILIDAD**>
+> [!tip] **INMUTABILIDAD**
 > Es uno de los pilares más **importantes** en el desarrollo de software. Encontrarás más detalles de mi experiencia trabajando en un miniproyecto mío; las notas son [[02-Inmutabilidad]]
 >
 ---
@@ -443,7 +443,7 @@ Para persistir los datos de sesión del usuario tras un login exitoso en Angular
   * *Guardar Token:* `localStorage.setItem('token', jwt)`
   * *Recuperar Token:* `localStorage.getItem('token')`
 
-> [!warning] **Seguridad Avanzada: Cookies HttpOnly**>
+> [!warning] **Seguridad Avanzada: Cookies HttpOnly**
 > Son un tipo de cookies especiales configuradas desde el backend que tienen activada la bandera `HttpOnly`. Esto garantiza que los datos **sean completamente inaccesibles para los scripts del lado del cliente (JavaScript/TypeScript)**, bloqueando de raíz vulnerabilidades de robo de tokens mediante ataques tipo XSS (Cross-Site Scripting).
 
 ---

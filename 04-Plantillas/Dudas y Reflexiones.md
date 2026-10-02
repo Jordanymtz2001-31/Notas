@@ -2,11 +2,12 @@
 tipo: duda-investigacion
 estatus: 🔄 Pendiente
 categoria:
-fecha_registro:
-  "{ date }":
+fecha_registro: "{{date}}"
 fecha_resolucion:
 fuente_origen:
 ---
+
+# {{title}}
 
 > [!info] ❓ **La Duda / Reflexión**
 > Escribe aquí la pregunta o el pensamiento inicial de forma clara.
@@ -17,13 +18,13 @@ fuente_origen:
 
 ---
 
-# 🧠 Contexto / ¿Por qué me surgió?
+## 🧠 Contexto / ¿Por qué me surgió?
 *   **Detonante:** 
 *   **Sospecha inicial:** (Lo que tú crees o intuyes antes de investigar, ej: "Creo que tiene que ver con operaciones CRUD").
 
 ---
 
-# 🔍 Investigación y Respuestas
+## 🔍 Investigación y Respuestas
 ### Fuentes Consultadas
 *   [ ] Buscar en Google / Documentación Oficial: 
 *   [ ] Preguntar a IA / Foros: 
@@ -34,5 +35,5 @@ fuente_origen:
 
 ---
 
-# 🚀 Acciones a tomar (Next Actions)
+## 🚀 Acciones a tomar (Next Actions)
 - [ ] 

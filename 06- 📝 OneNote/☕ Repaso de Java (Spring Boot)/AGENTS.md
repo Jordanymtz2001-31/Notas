@@ -64,7 +64,9 @@ Tipo en **minúscula**. Los que se usan en esta carpeta:
 | `[!example]` | Ejemplo concreto o analogía. |
 | `[!success]` | Resumen de la estrategia aplicada. |
 
-Formato obligatorio, con `>` en la primera línea para continuar:
+Formato obligatorio: el título va justo después de `] ` y **todas las líneas del bloque empiezan
+con `>`**. El `>` va al **inicio** de cada línea, nunca al final del título: si cierras la línea de
+título con `>`, ese `>` se queda dentro del título y se ve al renderizar.
 
 ```markdown
 > [!tip] **Título en negrita**
@@ -72,8 +74,10 @@ Formato obligatorio, con `>` en la primera línea para continuar:
 > - Lista interna del callout.
 ```
 
-`[!IMPORTANT]` en mayúscula es válido pero no idiomático: escribe el tipo en minúscula. Lo único que se
-renderiza como cita plana, sin color ni plegado, son los **tipos inventados**: `hotel`, `peligro`.
+`[!IMPORTANT]` en mayúscula es válido pero no idiomático: escribe el tipo en minúscula.
+Los tipos inventados (`hotel`, `peligro`) no se cortan ni se quedan en cita plana: **caen al estilo
+de `note`** (según la fuente oficial, *"any unsupported type defaults to the `note` type"*), o sea
+que se ven como un callout genérico, sin el color ni el icono del tipo que creías elegir.
 Para una etiqueta en vez de un tipo, va **después**: `> [!info] Alias`.
 
 ## Referencias y enlaces
