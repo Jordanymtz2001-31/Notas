@@ -7,6 +7,8 @@ fecha_resolucion: 2026-09-07
 fuente_origen: Con la IA de Google
 ---
 
+# Pruebas Unitarias y de Integracion
+
 > [!info] ❓ **La Duda / Reflexión**
 > Escribe aquí la pregunta o el pensamiento inicial de forma clara.
 > 1. Las pruebas que realice en un Proyecto de [[07-Pruebas]] pense que tanto pruebas Unitarias como de integracion eran casi lo mismo pero no, queria saber para que se usan cada uno y que es lo que cumplen.
@@ -16,13 +18,13 @@ fuente_origen: Con la IA de Google
 
 ---
 
-# 🧠 Contexto / ¿Por qué me surgió?
+## 🧠 Contexto / ¿Por qué me surgió?
 *   **Detonante:** Me surguio en identificar cuales son pruebas de Integracion y Unitarias
 *   **Sospecha inicial:** (Lo que tú crees o intuyes antes de investigar, ej: "Pense que solo era cuando se integraba con servicios externos(API). Pero no, sino es cuando se ejecuta toda la logica del sistema").
 
 ---
 
-# 🔍 Investigación y Respuestas
+## 🔍 Investigación y Respuestas
 ### Fuentes Consultadas
 * [x] Buscar en Google / Documentación Oficial: ✅ 2026-09-07
 * [x] Preguntar a IA / Foros: ✅ 2026-09-07
@@ -48,5 +50,5 @@ fuente_origen: Con la IA de Google
 
 ---
 
-# 🚀 Acciones a tomar (Next Actions)
+## 🚀 Acciones a tomar (Next Actions)
 - [ ] 

@@ -7,6 +7,8 @@ fecha_resolucion: 2026-08-31
 fuente_origen: Con la IA de Google
 ---
 
+# Manejo de Excepciones en Spring Boot
+
 > [!info] ❓ **La Duda / Reflexión**
 > Escribe aquí la pregunta o el pensamiento inicial de forma clara.
 > 1. ¿Como se utilizan los manejadores de excepciones en spring Boot?
@@ -16,14 +18,14 @@ fuente_origen: Con la IA de Google
 
 ---
 
-# 🧠 Contexto / ¿Por qué me surgió?
+## 🧠 Contexto / ¿Por qué me surgió?
 *   **Detonante:** Estaba repasando mis notas de [[Preguntas de Java para entrevistas]] y en los puntos de Excepciones me acorde de mi proyecto de Repaso [[002-Gestion de ALumnos]] en el cual implemente Manejador de excepciones y quise investigar al respecto.
 *   **Sospecha inicial:**
 	*Pense que eran para lo mismo o que se reemplazaban*
 
 ---
 
-# 🔍 Investigación y Respuestas
+## 🔍 Investigación y Respuestas
 ### Fuentes Consultadas
 * [x] Buscar en Google / Documentación Oficial: ✅ 2026-08-31
 * [x] Preguntar a IA / Foros: ✅ 2026-08-31
@@ -61,5 +63,5 @@ fuente_origen: Con la IA de Google
 
 ---
 
-# 🚀 Acciones a tomar (Next Actions)
+## 🚀 Acciones a tomar (Next Actions)
 - [x] 8:00 Revisar si el proyecto de [[002-Gestion de ALumnos]] Esta compliendo con estos manejadores de Excepciones para entender mejro el proyecto, de lo contrario mejorarlo. 📅 2026-09-07 ✅ 2026-09-07

@@ -1,3 +1,4 @@
+# {{title}}
 
 ## 📥 Ideas / Por Buscar
 - [ ] Canción: *Nombre* - Artista | Estilo de fondo: (Ej: Lluvia / Neon)

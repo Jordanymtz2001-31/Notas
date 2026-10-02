@@ -7,6 +7,8 @@ fecha_resolucion: 2026-09-16
 fuente_origen: "[[002-Gestion de ALumnos]]"
 ---
 
+# Estereotipos
+
 > [!info] ❓ **La Duda / Reflexión**
 > Escribe aquí la pregunta o el pensamiento inicial de forma clara.
 > 1. ¿Que son los estereotipos?
@@ -16,13 +18,13 @@ fuente_origen: "[[002-Gestion de ALumnos]]"
 
 ---
 
-# 🧠 Contexto / ¿Por qué me surgió?
+## 🧠 Contexto / ¿Por qué me surgió?
 *   **Detonante:** En una entrevista me preguntaron y no supe que responder
 *   **Sospecha inicial:** La verdad es que no sabia que eran
 
 ---
 
-# 🔍 Investigación y Respuestas
+## 🔍 Investigación y Respuestas
 ### Fuentes Consultadas
 * [x] Buscar en Google / Documentación Oficial: ✅ 2026-09-16
 * [x] Preguntar a IA / Foros: ✅ 2026-09-16
@@ -43,5 +45,5 @@ fuente_origen: "[[002-Gestion de ALumnos]]"
 
 ---
 
-# 🚀 Acciones a tomar (Next Actions)
+## 🚀 Acciones a tomar (Next Actions)
 - [ ] 

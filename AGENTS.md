@@ -7,8 +7,11 @@ carpeta concreta viven en el `AGENTS.md` de esa carpeta, que tiene prioridad sob
 ## Identidad del vault
 
 - Es un **vault de Obsidian**personal de estudio, en español.
-- Es un repositorio git con auto-commit local cada 5 minutos (plugin `obsidian-git`). **Sin remoto:**
-  no hagas `push`, no hay dónde. No hay build, lint ni tests que correr.
+- Es un repositorio git con **auto-commit y push automáticos cada 15 minutos** (plugin `obsidian-git`),
+  remoto `origin → github.com/Jordanymtz2001-31/Notas.git`. **No lances `git push` a mano**: espera a
+  que lo haga el plugin. No hay build, lint ni tests que correr.
+- **No todo se sube:** `.gitignore` deja fuera `.trash/`, los `.json` de interfaz de Obsidian y la
+  media pesada (`.mp4`, `.mp3`, `.mov`, …). GitHub no es un backup completo del vault.
 - La carpeta `.opencode/` y este archivo son configuración del agente, no contenido del vault.
 
 ## Estructura

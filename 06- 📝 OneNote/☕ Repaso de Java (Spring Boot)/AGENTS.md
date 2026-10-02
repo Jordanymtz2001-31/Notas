@@ -6,17 +6,16 @@ se define lo propio de las notas de repaso de entrevistas técnicas.
 ## Propósito de la carpeta
 
 Notas de **repaso para entrevistas técnicas** en Java y Spring Boot, escritas para poder leerlas en
-voz alta y responder. No es documentación de referencia ni un tutorial paso a paso: es un guion de
-entrevista. El lector ya conoce la teoría; la nota le sirve para recordar la frase exacta, el
+voz alta y responder. No es documentación de referencia ni un tutorial paso a paso: es un guion de entrevista. El lector ya conoce la teoría; la nota le sirve para recordar la frase exacta, el
 ejemplo y la analogía.
 
 Estructura de 2 niveles:
 
-| Carpeta | Nota |
-| :--- | :--- |
-| `Java/` | `Preguntas de Java para entrevistas.md` — POO, herencia, polimorfismo, excepciones, Collections, SOLID. |
+| Carpeta        | Nota                                                                                                               |
+| :------------- | :----------------------------------------------------------------------------------------------------------------- |
+| `Java/`        | `Preguntas de Java para entrevistas.md` — POO, herencia, polimorfismo, excepciones, Collections, SOLID.            |
 | `Spring Boot/` | `Preguntas de Spring para entrevistas.md` — IoC, autoconfiguración, MVC, REST, Servlets, JPA/Hibernate, seguridad. |
-| `Spring Boot/` | `TEST.md` — estrategias y herramientas de testing. |
+| `Spring Boot/` | `TEST.md` — estrategias y herramientas de testing.                                                                 |
 
 ## Esquema de encabezados
 
@@ -32,8 +31,7 @@ Texto de la sección.
 - **Un solo H1 por nota.** Cuando el tema crece y quieres continuar, **no** agregues otro `#`.
   Cierra con `---` y abre la siguiente sección numerada.
 - La numeración de `##` es **correlativa de 1 a N** y nunca se repite. Si insertas una sección en
-  medio, renumera las siguientes. Cuando el tema crece dentro de una nota, **renumera desde el
-  punto de inserción hacia abajo**: es el defecto estructural más frecuente de estas notas.
+  medio, renumera las siguientes. Cuando el tema crece dentro de una nota, **renumera desde el punto de inserción hacia abajo**: es el defecto estructural más frecuente de estas notas.
 - Un subtema que no merece número va como `###`, nunca como `##` suelto.
 - Cada H2 y H3 lleva un emoji representativo del contenido.
 - Antes de cada `##` numerado, un separador `---`.
@@ -50,7 +48,7 @@ Texto de la sección.
 
 ## Callouts
 
-Tipo en **minúscula**. Los que se usan en esta carpeta:
+Tipo en **minuscula**. Los que se usan en esta carpeta:
 
 | Tipo | Para qué |
 | :--- | :--- |
@@ -88,8 +86,7 @@ Para una etiqueta en vez de un tipo, va **después**: `> [!info] Alias`.
   📍 *==> Ref: Ejercicio 7 - Semana 1 - Enucom 3*
   ```
 
-- Experiencia real en un proyecto (Polihules, Textiles): entrecomillada, en primera persona, como
-  respuesta hablada. Ej. *"En *Textiles* lo implementé para blindar los endpoints del backend…"*
+- Experiencia real en un proyecto (Polihules, Textiles): entrecomillada, en primera persona, como respuesta hablada. Ej. *"En *Textiles* lo implementé para blindar los endpoints del backend…"*
 
 - Detalle técnico que ya vive en `03-Reflexiones/`: solo el enlace y una línea de por qué importa.
   No repitas el desarrollo.
@@ -113,8 +110,7 @@ Monolito vs Microservicios, Tomcat vs Netty, REST API vs RESTful API.
 
 ## Analogías
 
-Las analogías son el recurso más valioso de estas notas: hacen que un concepto se memorice. Cuando
-un concepto sea abstracto, inclúyela y ponle nombre explícito.
+Las analogías son el recurso más valioso de estas notas: hacen que un concepto se memorice. Cuando un concepto sea abstracto, inclúyela y ponle nombre explícito.
 
 Ejemplos ya en uso, para no repetirlas ni contradecirlas:
 
@@ -144,8 +140,7 @@ Escribe la analogía como un bloque con callout, no como prosa suelta.
 
 ## Reglas de edición específicas
 
-- Estas notas son densas y ya están escritas. Al corregir, **cambia solo lo que esté en el alcance
-  pedido**: no reescribas frases enteras, no cambies el orden de las secciones, no unifiques el
+- Estas notas son densas y ya están escritas. Al corregir, **cambia solo lo que esté en el alcance pedido**: no reescribas frases enteras, no cambies el orden de las secciones, no unifiques el
   estilo de redacción que ya funciona.
 - Ortografía y tildes: **sí se corrigen siempre**, es una regla dura.
 - Correcciones técnicas: solo las confirmadas. Si detectas algo dudoso o desactualizable, **no lo

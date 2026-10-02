@@ -7,12 +7,14 @@ fecha_resolucion: 2026-08-05
 fuente_origen: https://www.occ.com.mx/empleo/oferta/21272441-desarrollador-web/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
 ---
 
-# ❓ La Duda / Reflexión
+# Procesos en manufacturas
+
+## ❓ La Duda / Reflexión
 > Escribe aquí la pregunta o el pensamiento inicial de forma clara.
 ¿Que son los procesos de manufactura en las empresas y como aplica o que hace un programador en esa área.
 ---
 
-# 🧠 Contexto / ¿Por qué me surgió?
+## 🧠 Contexto / ¿Por qué me surgió?
 
 *   **Detonante:** Vi una vacante de Desarrollador Web Full Stack en Grupo Corporativo Papelera con muy buen sueldo ($50k-$60k), pero pedían entender procesos de manufactura y me dio desconfianza no tener esa experiencia.
 
@@ -20,7 +22,7 @@ fuente_origen: https://www.occ.com.mx/empleo/oferta/21272441-desarrollador-web/?
 
 ---
 
-# 🔍 Investigación y Respuestas
+## 🔍 Investigación y Respuestas
 ### Fuentes Consultadas
 *   [x] Buscar en Google / Documentación Oficial: 
 *   [x] Preguntar a IA / Foros: Consultar con la IA sobre el alcance real de la vacante de OCC.
@@ -31,5 +33,5 @@ fuente_origen: https://www.occ.com.mx/empleo/oferta/21272441-desarrollador-web/?
 
 ---
 
-# 🚀 Acciones a tomar (Next Actions)
+## 🚀 Acciones a tomar (Next Actions)
 - [ ] Podira adaptar mi CV resaltando mis proyectos de GitHub pero desafortunadamente me hace falta mas conocimientos y bases para que se me facilite adaptar nuevas tecnologias

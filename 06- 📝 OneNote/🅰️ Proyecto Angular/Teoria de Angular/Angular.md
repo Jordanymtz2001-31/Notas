@@ -70,20 +70,20 @@
 > [!info] **¿Qué son los metadatos?**
 > Son la información de configuración que le damos a Angular sobre cómo debe tratar una clase. Sin metadatos, Angular vería tu clase como una clase TypeScript normal, sin saber que es un componente, servicio o módulo.
 
-> [!code] **Decoradores de Clase**
+> [!example] **Decoradores de Clase**
 > * `@Component` → Define un componente
 > * `@NgModule` → Define un módulo
 > * `@Injectable` → Define un servicio inyectable
 > * `@Directive` → Define una directiva
 > * `@Pipe` → Define un pipe
 
-> [!code] **Decoradores de Propiedad**
+> [!example] **Decoradores de Propiedad**
 > * `@Input()` → Recibe datos del padre
 > * `@Output()` → Envía eventos al padre
 > * `@ViewChild()` → Accede a elemento de la vista propia
 > * `@ContentChild()` → Accede a contenido proyectado
 
-> [!code] **Decoradores de Método/Parámetro**
+> [!example] **Decoradores de Método/Parámetro**
 > * `@HostListener()` → Escucha eventos del elemento host
 > * `@HostBinding()` → Vincula propiedad al elemento host
 > * `@Inject()` → Especifica qué token inyectar
@@ -176,7 +176,7 @@
 > 4. **Two-way Binding:** `[( )]` → Sincronización en ambas direcciones clase ↔ vista.
 > 5. **Directivas estructurales:** `*ngIf`, `*ngFor` → Controlan la estructura y apariencia.
 
-> [!code] **Ejemplos**
+> [!example] **Ejemplos**
 > ```html
 > <!-- Interpolación → Muestra datos de la clase en la vista -->
 > <h1>{{ nombre }}</h1>
@@ -241,7 +241,7 @@
 > [!info] **¿Qué son las Pipes?**
 > Son operadores de plantilla que transforman datos de forma declarativa antes de mostrarlos en la vista. Se usan para formatear fechas, monedas, texto y otros valores sin ensuciar el componente.
 
-> [!code] **Ejemplos**
+> [!example] **Ejemplos**
 > ```html
 > <!-- Sin pipe -->
 > <p>{{ precio }}</p> <!-- 1000 -->
@@ -343,7 +343,7 @@
 > [!info]
 > Es el método que activa un Observable y permite escuchar sus emisiones. Recibe callbacks para `next`, `error` y `complete`, y devuelve una `Subscription` que puede cancelarse con `unsubscribe()`.
 
-> [!code] **Ejemplo**
+> [!example] **Ejemplo**
 > ```typescript
 > myObservable.subscribe({
 >   next: x => console.log('Observer got a next value: ' + x),
@@ -377,7 +377,7 @@
 
 ### 📋 ¿Cómo usar HttpClient?
 
-> [!code] **Pasos**
+> [!example] **Pasos**
 > 1. Importar `HttpClient` en el módulo raíz.
 > 2. Inyectar el `HttpClient` en el TS del componente.
 
@@ -386,7 +386,7 @@
 > [!info]
 > Por defecto `HttpClient` solo devuelve el body de la respuesta. Usando `observe: 'response'` obtienes el objeto `HttpResponse` completo que incluye el body tipado, el `status code`, `statusText`, la URL y todos los headers.
 
-> [!code] **Ejemplo**
+> [!example] **Ejemplo**
 > ```typescript
 > getUserResponse(): Observable<HttpResponse<User>> {
 >   return this.http.get<User>(
@@ -396,7 +396,7 @@
 
 ### 📤 Headers HTTP
 
-> [!code] **Formas de pasar headers**
+> [!example] **Formas de pasar headers**
 > ```typescript
 > // Opción 1: Mapa de objetos
 > this._http.get('someUrl', {
@@ -420,7 +420,7 @@
 > 2. **Nivel 2 → Con `catchError()` en el servicio** (recomendado) ⭐
 > 3. **Nivel 3 → Con interceptores HTTP** (centralizado)
 
-> [!code] **Nivel 2 — Con catchError en el servicio (Recomendado)**
+> [!example] **Nivel 2 — Con catchError en el servicio (Recomendado)**
 > ```typescript
 > import { catchError, throwError } from 'rxjs';
 > import { HttpErrorResponse } from '@angular/common/http';
@@ -469,7 +469,7 @@
 > | **Errores** | Manejar 401/403 globalmente |
 > | **Caching** | Guardar respuestas frecuentes |
 
-> [!code] **Sintaxis**
+> [!example] **Sintaxis**
 > ```typescript
 > interface HttpInterceptor {
 >   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>>
@@ -584,12 +584,12 @@
 > [!info] **¿Qué es la CLI Angular?**
 > Es una interfaz de línea de comandos para estructurar y crear aplicaciones angulares utilizando módulos de estilos Node.js.
 
-> [!code] **Instalación**
+> [!example] **Instalación**
 > ```bash
 > npm install @angular/cli@latest
 > ```
 
-> [!code] **Comandos principales**
+> [!example] **Comandos principales**
 > * `ng new` → Crea un nuevo proyecto
 > * `ng generate class my-new-class` → Agrega una clase
 > * `ng generate component my-new-component` → Agrega un componente
@@ -607,7 +607,7 @@
 > [!warning]
 > Las macros son un concepto avanzado y específico. En la mayoría de proyectos Angular nunca necesitarás crearlas.
 
-> [!code] **Ejemplo**
+> [!example] **Ejemplo**
 > ```typescript
 > export function wrapInArray<T>(value: T): T[] {
 >   return [value];
@@ -624,7 +624,7 @@
 > [!info] **¿Cuál es el propósito de `trackBy`?**
 > La función `trackBy` en `*ngFor` proporciona un identificador único para cada elemento de la lista, permitiendo a Angular detectar solo los cambios reales (agregados/eliminados) en lugar de reconstruir toda la lista.
 
-> [!code] **Ejemplo**
+> [!example] **Ejemplo**
 > ```html
 > <div *ngFor="let todo of todos; trackBy: trackByTodos">
 >   ({{todo.id}}) {{todo.name}}

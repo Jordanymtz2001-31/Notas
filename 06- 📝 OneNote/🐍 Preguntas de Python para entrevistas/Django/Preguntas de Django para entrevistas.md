@@ -82,7 +82,7 @@
 > [!info] **¿Qué es el ORM?**
 > El ORM en Django es la capa que te permite trabajar con la base de datos usando objetos de Python en lugar de escribir SQL directamente. Django convierte tus modelos en tablas y tus consultas en operaciones más naturales dentro del código.
 
-> [!code] **Mapeo y Tabla**
+> [!example] **Mapeo y Tabla**
 > * **Mapeo:** `class Modelo(models.Model)`
 > * **Tabla:** `class Meta: db_table = "tabla"`
 

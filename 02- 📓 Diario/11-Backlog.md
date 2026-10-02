@@ -13,10 +13,10 @@
 - [ ] Subir mis wallpapers en la nube, ya que un subcriptor le gusto. #backlog 
 - [ ] 📌 Investigar e implementar gestores de Contraseña #backlog 
 - [x] ⏫ Revisar lo de mi registro de Numero de Telefono ✅ 2026-08-31
-- [ ] Colocar en la SKILL de Obsidian que investigue sobre el tema que le estoy comentando para que verifique si es correcto con lo que le estoy diciendo #backlog 
-- [ ] Colocar en la SKILL que al momento de que le diga que cree una nota sobre x tema el sepa a que carpeta o minibault pertenece y claro hacerme la pregunta sobre es correcto y que use la plantilla Dudad y reflexion #backlog 
-- [ ] Cuando diga que es un tema de actividad para dias posteriores entonces que use la plantillas de Diario #backlog 
-- [ ] Cuando mencione que empezaremos un nuevo proyecto entonces que use la plantilla de Poryecto #backlog 
+- [x] Colocar en la SKILL de Obsidian que investigue sobre el tema que le estoy comentando para que verifique si es correcto con lo que le estoy diciendo #backlog ✅ 2026-10-02
+- [x] Colocar en la SKILL que al momento de que le diga que cree una nota sobre x tema el sepa a que carpeta o minibault pertenece y claro hacerme la pregunta sobre es correcto y que use la plantilla Dudad y reflexion #backlog ✅ 2026-10-02
+- [x] Cuando diga que es un tema de actividad para dias posteriores entonces que use la plantillas de Diario #backlog ✅ 2026-10-02
+- [x] Cuando mencione que empezaremos un nuevo proyecto entonces que use la plantilla de Poryecto #backlog ✅ 2026-10-02
 
 > [!abstract] 💭 Reflexiones y Notas
 >-  En cuanto a mis notas de One Note ya valide que la nota de Repaso de Java esta Corresto.

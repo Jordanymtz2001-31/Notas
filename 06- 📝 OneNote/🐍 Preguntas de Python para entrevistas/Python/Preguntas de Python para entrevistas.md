@@ -16,7 +16,7 @@ Este apunte centraliza los conceptos avanzados de Python, estructuras de datos, 
 > [!info] 🚀 Funciones Lambda (Anónimas)
 > Son ideales para escribir funciones cortas, temporales y resolver lógicas en una sola línea de código. Suelen combinarse con funciones de orden superior como `map()`, `filter()` y `reduce()`.
 
-> [!code] 📦 Gestión de Argumentos Dinámicos
+> [!example] 📦 Gestión de Argumentos Dinámicos
 > * `*args` ➡️ Captura un número variable ($n$) de argumentos posicionales como una **Tupla**.
 > * `**kwargs` ➡️ Captura argumentos condicionales o nombrados como un **Diccionario** (Clave/Valor).
 
@@ -68,7 +68,7 @@ Consiste en aislar y mostrar únicamente las características esenciales de un o
 ### 2. 🔒 Encapsulamiento
 Protección del estado interno de un objeto restringiendo el acceso directo a sus atributos. En Python se maneja mediante convenciones de guiones bajos y decoradores.
 
-> [!code] 🎛️ Convenciones de Acceso y Propiedades
+> [!example] 🎛️ Convenciones de Acceso y Propiedades
 > * `self.atributo` ➡️ **Público:** Accesible desde cualquier lugar del código.
 > * `self._atributo` ➡️ **Protegido:** Aviso de uso interno. Indica que debe usarse con cuidado fuera de la clase.
 > * `self.__atributo` ➡️ **Privado:** Activa el *Name Mangling* para dificultar su acceso directo fuera de la clase.

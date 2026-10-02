@@ -7,18 +7,20 @@ fecha_resolucion: 2026-09-02
 fuente_origen: Con la IA de Google
 ---
 
+# Comandos de Fedora 44 | Linux
+
 > [!info] ❓ **La Duda / Reflexión**
 > Escribe aquí la pregunta o el pensamiento inicial de forma clara.
 > 1.  Colocare los comandos mas usados y que aun no recuerdo por completo de Fedora 44
 
 ---
 
-# 🧠 Contexto / ¿Por qué me surgió?
+## 🧠 Contexto / ¿Por qué me surgió?
 *   **Detonante:** Se me olvida con el paso del tiempo, necesito registrarlo en caso de que no haya internet. 
 
 ---
 
-# 🔍 Investigación y Respuestas
+## 🔍 Investigación y Respuestas
 ### Fuentes Consultadas
 * [x] Buscar en Google / Documentación Oficial: ✅ 2026-09-02
 *   [ ] Preguntar a IA / Foros: 
@@ -72,5 +74,5 @@ fuente_origen: Con la IA de Google
 
 ---
 
-# 🚀 Acciones a tomar (Next Actions)
+## 🚀 Acciones a tomar (Next Actions)
 - [ ] 

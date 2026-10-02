@@ -1,4 +1,4 @@
-Preguntas trampa :
+# Preguntas trampa
  
 ¿Por qué contratarte a ti y no a otro candidato? Por lo que entiendo están buscando a alguien que de soporte y manteniendo al sistema de ahorro de combustible con las tecnologías que menciona la vacante, en mi puesto de Polihules di soporte al sistema para mejorar el rendimiento y aumentar las ganancias, creo que puedo aplicar esa misma experiencia y obtener mejores resultados aquí.
  

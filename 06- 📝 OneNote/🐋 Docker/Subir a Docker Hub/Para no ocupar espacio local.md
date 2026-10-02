@@ -1,3 +1,4 @@
+# Para no ocupar espacio local
 
 ## ☁️ Publicación de Imágenes en Docker Hub (Push Workflow)
 

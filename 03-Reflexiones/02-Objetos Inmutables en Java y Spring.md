@@ -7,6 +7,8 @@ fecha_resolucion: 2026-09-16
 fuente_origen:
 ---
 
+# Objetos Inmutables en Java y Spring
+
 > [!info] ❓ **La Duda / Reflexión**
 > Escribe aquí la pregunta o el pensamiento inicial de forma clara.
 > 1. ¿Cuales son los objetos Inmutables en java y spring?
@@ -16,13 +18,13 @@ fuente_origen:
 
 ---
 
-# 🧠 Contexto / ¿Por qué me surgió?
+## 🧠 Contexto / ¿Por qué me surgió?
 *   **Detonante:** Me realizaron esa pregunta en una entrevista
 *   **Sospecha inicial:** La verdad es que nosabia que era.
 
 ---
 
-# 🔍 Investigación y Respuestas
+## 🔍 Investigación y Respuestas
 ### Fuentes Consultadas
 * [x] Buscar en Google / Documentación Oficial: ✅ 2026-09-16
 * [x] Preguntar a IA / Foros: ✅ 2026-09-16
@@ -50,5 +52,5 @@ fuente_origen:
 
 ---
 
-# 🚀 Acciones a tomar (Next Actions)
+## 🚀 Acciones a tomar (Next Actions)
 - [ ] 

@@ -7,6 +7,8 @@ fecha_resolucion: 2026-09-15
 fuente_origen: "[[002-Gestion de ALumnos]]"
 ---
 
+# Inmutabilidad
+
 > [!info] ❓ **La Duda / Reflexión**
 > Escribe aquí la pregunta o el pensamiento inicial de forma clara.
 > 1. ¿Que es Inmutabilidad?
@@ -16,13 +18,13 @@ fuente_origen: "[[002-Gestion de ALumnos]]"
 
 ---
 
-# 🧠 Contexto / ¿Por qué me surgió?
+## 🧠 Contexto / ¿Por qué me surgió?
 *   **Detonante:** AL tener luna entrevista con NSGular me dieron reto de que tengo que estudiar mas esa parte
 *   **Sospecha inicial:** Solo se que el objeto no debe de ser modificable.
 
 ---
 
-# 🔍 Investigación y Respuestas
+## 🔍 Investigación y Respuestas
 ### Fuentes Consultadas
 * [x] Buscar en Google / Documentación Oficial: ✅ 2026-09-15
 * [x] Preguntar a IA / Foros: ✅ 2026-09-15
@@ -33,19 +35,19 @@ fuente_origen: "[[002-Gestion de ALumnos]]"
 >
 > En términos sencillos, un objeto es **inmutable** si **su estado no puede ser modificado después de haber sido creado**. Si necesitas cambiar algo, no modificas el objeto original; en su lugar, creas una copia nueva con el dato actualizado.
 
-## ¿Por qué es vital la Inmutabilidad?
+### ¿Por qué es vital la Inmutabilidad?
 - **Seguridad en Hilos (Thread-Safety):** Spring Boot maneja por defecto sus componentes como *Singletons* (una sola instancia compartida por miles de usuarios al mismo tiempo). Si un objeto es inmutable, múltiples usuarios pueden leerlo a la vez por internet sin el riesgo de que un usuario altere los datos del otro. Evita condiciones de carrera catastróficas.
 - **Efectos Secundarios Cero:** Garantiza que si pasas un objeto como parámetro a un método o a otro servicio, ese método no va a alterar tus datos originales a tus espaldas.
 - **Facilidad para hacer Tests:** En tus pruebas con `jqwik` y `Mockito`, es muchísimo más fácil predecir y comparar el comportamiento de objetos cuyos valores están blindados y no cambian mágicamente a mitad del flujo.
 
 ---
 
-## ¿Dónde se implementa en Spring Boot?
+### ¿Dónde se implementa en Spring Boot?
 
-### A. En los DTOs (Data Transfer Objects)
+#### A. En los DTOs (Data Transfer Objects)
 - Los datos que viajan por la red (JSONs de entrada y salida) deben ser inmutables. Una vez que recibes un `POST` con los datos de un alumno, esos datos son una "fotografía" del momento; no deberían cambiar mientras se procesan.
 - **⚠️ Clarificación Importante:** Los **DTOs** (creados como `record`) son **100% Inmutables**; no tienen métodos `set()`. No debes confundirlos con las **Entidades/Modelos de la Base de Datos**, que sí son **Mutables** (tienen setters y getters tradicionales) porque Hibernate los necesita para actualizar las tablas. Y al crear los objetos junto con el metodo Builder en base a los dtos se vuelven con doble candado de seguridad. 
-### **¿Cuál es el chiste de la inmutabilidad si necesito hacer cambios?** 
+#### **¿Cuál es el chiste de la inmutabilidad si necesito hacer cambios?** 
 - Modificacion en Dtos(Inmutable).
 Para "modificar" un objeto inmutable, se utiliza el **Patrón Builder**. En lugar de alterar el objeto existente, el Builder actúa como un constructor temporal que clona los datos anteriores, aplica el cambio y, al ejecutar `.build()`, sella un objeto **completamente nuevo** en memoria.
 
@@ -71,20 +73,20 @@ return toDTO(updated);
 - **Getters (o métodos de lectura):** Se usan en todo el proyecto para lectura pura de datos. *(Nota: En los Java Records no se usa la palabra "get", se lee directo con el nombre del método: `alumnoDTO.nombre()`)* .
 - **Setters:** Modifican el objeto original directamente en la memoria RAM. **Su uso se reserva exclusivamente para las `@Entity` de JPA/Hibernate** donde la mutabilidad es obligatoria para sincronizar los cambios con las bases de datos.
 
-### B. En la Inyección de Dependencias (Componentes de Spring)
+#### B. En la Inyección de Dependencias (Componentes de Spring)
 - Tus servicios (`@Service`) y controladores (`@Controller`) deben tener sus dependencias protegidas para que ningún proceso en caliente pueda reemplazar tu repositorio o cliente web por otra instancia.
 
-### C. En la Configuración (`@ConfigurationProperties`)
+#### C. En la Configuración (`@ConfigurationProperties`)
 - Los archivos de propiedades (`application.properties`) que lee Spring al arrancar deben cargarse de forma inmutable para evitar que el código altere contraseñas o URLs de bases de datos en tiempo de ejecución.
 
 ---
 
-## ¿Cómo se implementa? (Código Profesional)
+### ¿Cómo se implementa? (Código Profesional)
 
-### 🛠️ Caso 1: DTOs Inmutables con Java Records
+#### 🛠️ Caso 1: DTOs Inmutables con Java Records
 - Desde Java 16+, la mejor forma absoluta de crear DTOs inmutables es usando **`record`**. Un record automáticamente define todos sus campos como `private final`, crea un constructor con todos los campos y elimina los métodos `set()`.
 
-### 🛠️ Caso 2: Inyección de Dependencias Inmutable (Por Constructor)
+#### 🛠️ Caso 2: Inyección de Dependencias Inmutable (Por Constructor)
 - La inyección por atributos (`@Autowired`) es aceptada en tests, pero **en producción está desaconsejada**. El estándar profesional exige **Inyección por Constructor combinado con la palabra clave `final`** .
 
 ```java
@@ -108,13 +110,13 @@ public class AlumnoServiceImpl implements AlumnoService {
 
 ---
 
-## 🛑 ¿Dónde NO se usa la Inmutabilidad? (La Excepción)
+### 🛑 ¿Dónde NO se usa la Inmutabilidad? (La Excepción)
 Las **Entidades de Base de Datos (`@Entity` de JPA/Hibernate)** son la gran excepción a la regla de inmutabilidad en Spring Boot.
 Debido a cómo funciona Hibernate internamente para sincronizar los cambios con la base de datos (el ciclo de vida del *Entity Manager*), las entidades **necesitan ser mutables**. Por eso en tus entidades `Profesor` o `Alumno` de JPA sigues utilizando métodos `.setNombre()` convencionales o el patrón `@Builder` mutable para poder actualizar registros mediante un `repository.save()`.
 
 ---
 
-## ¿Tiene relación el método `Stream` con la inmutabilidad?
+### ¿Tiene relación el método `Stream` con la inmutabilidad?
 **Sí, una relación total y absoluta.** la API de Streams de Java (`.stream()`) fue diseñada bajo la filosofía de la **Programación Funcional**, la cual tiene como regla número uno la **inmutabilidad**.
 
 Opera como una tubería que procesa colecciones de forma inmutable: transforma los elementos en vuelo sin tocar jamás la lista original, devolviendo siempre una estructura de datos nueva y aislada.
@@ -129,13 +131,13 @@ El método `stream()` cumple rigurosamente con dos principios inmutables:
 - **No modifica la lista original:** La lista `creados` se mantiene exactamente igual antes y después del stream. Ningún elemento dentro de ella fue alterado, ordenado o eliminado.
 - **Produce una estructura nueva e independiente:** El método `.toList()` (en versiones de Java moderno) devuelve una lista **completamente nueva** que, además, es **inmutable por defecto**. Si intentas hacer un `.add()` posterior, el sistema arrojará un error.
 
-### 🍎 Ejemplo Analógico: Mutabilidad vs Inmutabilidad
+#### 🍎 Ejemplo Analógico: Mutabilidad vs Inmutabilidad
 Imagina que tienes una caja con 3 manzanas rojas (Lista Original):
 
 - **Si usas Setters (Mutabilidad):** Tomas la manzana número 1 de la caja original y le pintas encima con un marcador verde (`manzana.setColor("Verde")`) . Modificaste tu caja original; la manzana roja dejó de existir.
 - **Si usas Streams (Inmutabilidad):** Pasas las manzanas por una banda transportadora (`.stream()`) . La banda genera una réplica exacta de cada manzana pero en color verde (`.map(...)`) y las deposita en una **caja totalmente nueva** (`.toList()`) . Al final del proceso, conservas tu caja original con sus manzanas rojas intactas , y obtienes una nueva caja reluciente con manzanas verdes.
 
-### **3 casos reales y más comunes** donde usarás Streams en tu código de producción
+#### **3 casos reales y más comunes** donde usarás Streams en tu código de producción
 
 1.1 Convertir una Lista de Entidades a una Lista de DTOs (Mapeo)
 
@@ -192,5 +194,5 @@ public AlumnoDTO findAlumnoPorEmailEspecifico(String emailBuscar) {
 
  ---
 
-# 🚀 Acciones a tomar (Next Actions)
+## 🚀 Acciones a tomar (Next Actions)
 - [ ] 

@@ -6,19 +6,21 @@ fecha_registro: 2026-08-25
 fecha_resolucion:
 fuente_origen: Canal de Francisco Ochoa Inglés Fácil
 ---
- 
-# ❓ La Duda / Reflexión
+
+# Ingles con Francisco Ochoa Inglés Fácil
+
+## ❓ La Duda / Reflexión
 > Escribe aquí la pregunta o el pensamiento inicial de forma clara.
 Conceptos de ingles de [[12-Cursos de Ingles]]
 ---
 
-# 🧠 Contexto / ¿Por qué me surgió?
+## 🧠 Contexto / ¿Por qué me surgió?
 *   **Detonante:** Son conceptos o palabras que no me quedan claros
 *   **Sospecha inicial:** (Lo que tú crees o intuyes antes de investigar, ej: "Creo que tiene que ver con operaciones CRUD").
 
 ---
 
-# 🔍 Investigación y Respuestas
+## 🔍 Investigación y Respuestas
 ### Fuentes Consultadas
 * [x] Buscar en Google / Documentación Oficial: ✅ 2026-08-25
 *   [ ] Preguntar a IA / Foros: 
@@ -122,5 +124,5 @@ Conceptos de ingles de [[12-Cursos de Ingles]]
 
 ---
 
-# 🚀 Acciones a tomar (Next Actions)
+## 🚀 Acciones a tomar (Next Actions)
 - [ ] 

@@ -7,18 +7,20 @@ fecha_resolucion: 2026-08-06
 fuente_origen: Con la IA de Google
 ---
 
-# ❓ La Duda / Reflexión
+# Mockito and Jqwik
+
+## ❓ La Duda / Reflexión
 > Escribe aquí la pregunta o el pensamiento inicial de forma clara.
 > ¿Que son y para que sirven Mockito y Jqwik?
 ---
 
-# 🧠 Contexto / ¿Por qué me surgió?
+## 🧠 Contexto / ¿Por qué me surgió?
 *   **Detonante:** Al realizar pruebas Unitarias en Spring Boot
 *   **Sospecha inicial:** Pense que servian para lo mismo pero no es asi
 
 ---
 
-# 🔍 Investigación y Respuestas
+## 🔍 Investigación y Respuestas
 ### Fuentes Consultadas
 *   [x] Buscar en Google / Documentación Oficial: 
 *   [x] Preguntar a IA / Foros: 
@@ -30,5 +32,5 @@ fuente_origen: Con la IA de Google
 
 ---
 
-# 🚀 Acciones a tomar (Next Actions)
+## 🚀 Acciones a tomar (Next Actions)
 - [ ] 
