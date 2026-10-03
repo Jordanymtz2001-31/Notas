@@ -7,9 +7,11 @@
 # Papelera de Obsidian: prohibido leer, escribir o restaurar
 .trash/
 
-# Multimedia pesada: se queda en disco, pero no se versiona
-# (el histórico antiguo conserva los que ya estaban commiteados).
-# No se ignora la carpeta entera: sus .md y .jpeg sí se versionan.
+# Contenido de TikTok: se queda en disco, no se versiona y no se sube a GitHub.
+# Esta carpeta pesa 986 MB y su histórico reventaba la subida (GitHub corta a 100 MB por fichero).
+05-Contenido_TikTok/
+
+# Multimedia pesada fuera de esa carpeta: defensa en profundidad
 *.mp4
 *.mp3
 *.mov
