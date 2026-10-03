@@ -96,4 +96,4 @@ Cuando terminas tu tarea, llega el momento de fusionar tu código con la rama de
 >    ```
 
 
-- TOKEN:  <tu_PAT_aquí>
+- TOKEN: <tu_PAT_aquí>
