@@ -18,7 +18,7 @@
 ### 🏛️ Abstract Factory
 * **Funcionamiento:** Es una **fábrica de fábricas**. Permite crear familias de objetos relacionados sin especificar sus clases concretas. 
 
-> [!💡] **Estructura por Configuración (Ejemplo Local vs Cloud)**
+> [!example] **Estructura por Configuración (Ejemplo Local vs Cloud)**
 > 1. Definir una interfaz común `ServicioFactory` con métodos para cada tipo de servicio.
 > 2. Tener `ServicioLocalFactory` y `ServicioCloudFactory` como beans de Spring.
 > 3. Inyectar la fábrica adecuada según el perfil activo (`dev`/`prod`, `local`/`cloud`).
@@ -46,7 +46,7 @@
 ### 🏛️ Abstract Factory
 * **Funcionamiento:** Permite soportar e intercambiar **familias de objetos/servicios relacionados** según la configuración del entorno.
 
-> [!💡] **Estructura por Configuración (Ejemplo Pasarelas de Pago)**
+> [!example] **Estructura por Configuración (Ejemplo Pasarelas de Pago)**
 > * **Familia "Stripe":** `StripePaymentGateway`, `StripeShippingCalculator`, `StripeEmailNotifier`.
 > * **Familia "PayPal":** `PayPalPaymentGateway`, `PayPalShippingCalculator`, `PayPalEmailNotifier`.
 > 
@@ -78,7 +78,7 @@
 ### 🏛️ Abstract Factory
 * **Funcionamiento:** Permite crear familias de servicios relacionados abstrayendo las clases concretas según las variables de entorno de Angular.
 
-> [!💡] **Estructura por Entorno (Ejemplo Ambientación)**
+> [!example] **Estructura por Entorno (Ejemplo Ambientación)**
 > * **Familia "Dev":** `DevApiService`, `DevMockService`, `DevLoggerService`.
 > * **Familia "Prod":** `ProdApiService`, `ProdRealService`, `ProdLoggerService`.
 > 

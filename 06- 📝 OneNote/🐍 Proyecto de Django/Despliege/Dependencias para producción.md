@@ -18,7 +18,7 @@ C -->|Respuesta de código| B
 B -->|Devuelve respuesta| A
 ```
 
-> [!🚀] **Ventajas Clave**
+> [!success] **Ventajas Clave**
 > * **Concurrencia Real:** Maneja múltiples procesos en paralelo (*workers*) para atender cientos de peticiones de forma simultánea.
 > * **Optimización:** Está diseñado y optimizado para soportar tráfico real y producción estable, a diferencia del comando `runserver` (que es exclusivo de desarrollo y monohilo).
 

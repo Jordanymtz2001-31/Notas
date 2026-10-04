@@ -25,7 +25,7 @@
 ### `service.ts` (Servidor.ts)
 * **Propósito:** Funciona como el **mensajero, puente y conexión** directa entre el Frontend y el Backend.
 
-> [!🚀] **Responsabilidad del Servicio**
+> [!info] **Responsabilidad del Servicio**
 > Centraliza el consumo de la API. En este archivo se declaran e importan todos los **EndPoints (URLs) del Backend**, especificando sus métodos HTTP (`GET`, `POST`, `PUT`, `DELETE`) y el tipo de dato que espera recibir o enviar.
 
 ---

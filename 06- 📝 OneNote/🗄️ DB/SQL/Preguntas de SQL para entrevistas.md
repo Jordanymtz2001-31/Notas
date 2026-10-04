@@ -63,7 +63,7 @@ Es una unidad lógica de trabajo que agrupa una o más operaciones SQL bajo el p
 * **Commit:** Confirma y consolida los cambios en el disco de manera permanente.
 * **Rollback:** Deshace absolutamente todas las operaciones realizadas desde el inicio de la transacción si ocurre un fallo.
 
-> [!💡] **Ejemplo Clave: Transferencia Bancaria**
+> [!example] **Ejemplo Clave: Transferencia Bancaria**
 > Si se retira dinero de la Cuenta A y el sistema falla antes de depositarlo en la Cuenta B, la transacción ejecuta un **Rollback** automático para revertir ambas acciones, asegurando que el dinero no se pierda.
 
 ### 🗑️ Métodos de Eliminación de Datos

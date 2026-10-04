@@ -13,7 +13,7 @@
 
 ## 🤝 2. Sobre el Equipo y la Estructura
 
-> [!💡] **Objetivo de este bloque**
+> [!info] **Objetivo de este bloque**
 > Entender la línea de reportes, la sinergia del equipo y la metodología de trabajo interna de la empresa.
 
 * **¿De quién dependería yo directamente?** (¿Quién sería mi reporte directo o líder técnico?).

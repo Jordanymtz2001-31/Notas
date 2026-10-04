@@ -31,7 +31,7 @@
 ### 🎮 Strategy
 * **Funcionamiento:** Consiste en **inyectar comportamiento** y poder cambiarlo de forma dinámica en tiempo de ejecución. 
 
-> [!💡] **Analogía de Desarrollo**
+> [!example] **Analogía de Desarrollo**
 > Es como el sistema de un videojuego donde el personaje tiene diferentes armas disponibles y puede cambiar de una a otra (comportamiento) dinámicamente según la situación.
 
 * **Implementaciones nativas:**

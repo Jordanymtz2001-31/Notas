@@ -8,7 +8,7 @@ La **Programación Orientada a Objetos** es un paradigma que organiza el código
 ### 💼 ¿Por qué se utiliza en las empresas?
 Es la opción predilecta en arquitecturas corporativas debido a que incrementa drásticamente la **escalabilidad** del software, facilita un desarrollo altamente **mantenible** y promueve la **reutilización de código**.
 
-> [!🚀] **Caso de Uso Real en Plataformas**
+> [!example] **Caso de Uso Real en Plataformas**
 > "Cuando manejamos múltiples usuarios ligados a una plataforma, para evitar definir de forma redundante los mismos atributos y acciones en cada flujo del sistema, creamos una **Clase Base** unificada que represente la entidad global de usuario y de ahí estructuramos el negocio."
 
 ---
@@ -121,7 +121,7 @@ Permite crear una clase nueva (Subclase/Hija) basada en una clase existente (Sup
 Es la capacidad que permite que **diferentes objetos respondan a un mismo método o mensaje, pero ejecutando comportamientos totalmente distintos** según su clase.
 * 📍 *==> Ref: Ejercicio 7 - Semana 1 - Enucom 3*
 
-> [!💡] **Los 3 Tipos de Polimorfismo**
+> [!info] **Los 3 Tipos de Polimorfismo**
 > 1. **Sobrecarga (Overload):** Crear múltiples métodos con el **mismo nombre pero diferentes parámetros** (en tipo, cantidad u orden) dentro de la misma clase. *Ejemplo clásico: Definir un constructor con parámetros y otro vacío.* Se usa para dar múltiples formas de invocar una acción.
 > 2. **Sobreescritura (Override):** Redefinir un método de la clase padre dentro de la clase hija, manteniendo exactamente la **misma firma** (nombre y parámetros). En Java es una **recomendación fuerte** marcar el método con la anotación **`@Override`**, para que el compilador verifique la correcta vinculación y detecte errores de firma. ⚠️ Ojo: **no es obligatorio** en Java como sí lo es en C# o TypeScript; el método funciona igual sin la anotación.
 > 3. **De Parámetro (Genéricos):** Permite que un mismo método o estructura procese cualquier tipo de objeto. *Ejemplo: Una estructura `List<T>` funciona de manera idéntica ya sea que contenga objetos `Cliente`, `Producto` o `Pedido`.*
@@ -200,7 +200,7 @@ Palabras clave que deciden qué partes del código quedan expuestas y cuáles pr
 ### 🔹 Definición y Alcance
 A diferencia de los métodos abstractos (que carecen de cuerpo), los **Métodos Concretos** poseen su propia lógica completamente implementada y se ejecutan tal cual están escritos en la clase. 
 
-> [!🚀] **Características Operativas**
+> [!info] **Características Operativas**
 > * Tienen acceso total a los atributos de instancia de la clase.
 > * Las subclases heredan estos métodos mediante la relación de herencia (`extends`) y pueden utilizarlos de manera directa, sin importar si la clase base es abstracta o regular.
 

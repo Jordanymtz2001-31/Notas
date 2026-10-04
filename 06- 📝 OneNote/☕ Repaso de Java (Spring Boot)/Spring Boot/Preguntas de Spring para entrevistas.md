@@ -11,7 +11,7 @@ Es un marco de aplicación de **código abierto** (cuyo código fuente puede ser
 ### 🔥 Spring Boot
 Es un complemento que extiende las capacidades de Spring Framework. Su objetivo principal es automatizar la mayoría de las configuraciones repetitivas, permitiendo empaquetar aplicaciones 100% independientes, rápidas de desplegar y fáciles de mantener.
 
-> [!🚀] **El Kit Tecnológico de Spring Boot**
+> [!info] **El Kit Tecnológico de Spring Boot**
 > * **Starters:** Paquetes de dependencias "todo incluido" agrupadas por propósito de negocio.
 > * **Auto-configuración Inteligente:** Configura componentes (como la BD) basándose en las librerías del proyecto.
 > * **Servidor Embebido:** No requiere compilar archivos `.war` ni instalar servidores externos.
@@ -196,29 +196,29 @@ Consiste en proveer a las clases los recursos externos que requieren (como capas
 
 La teoría que rige la creación de una arquitectura basada en REST se sostiene sobre 6 principios fundamentales:
 
-> [!💡] **1. Sin Estado (Stateless)**
+> [!info] **1. Sin Estado (Stateless)**
 > Cada petición del cliente al servidor debe ser completamente independiente y contener toda la información necesaria para ser procesada. El servidor **no debe almacenar estados ni sesiones de los usuarios en su memoria**.
 > * *Consecuencia:* Si no se cumple y el sistema guarda estados de sesión tradicionales, el servidor se satura y bloquea el acceso de otros usuarios.
 > * *Solución Práctica:* Se implementa **JWT (JSON Web Token)** para encapsular la identidad y los permisos en el cliente, permitiendo el acceso masivo y concurrente de usuarios. 
 >   * 📍 *==> Ref: AUTHToken - SEMANA 3 - ENUCOM 2*
 
 
-> [!💡] **2. Cliente-Servidor**
+> [!info] **2. Cliente-Servidor**
 > Separación clara y absoluta de responsabilidades. El frontend se encarga de la interfaz de usuario y el backend de la lógica de negocio y los datos.
 
-> [!💡]  **3. Cacheable**
+> [!info]  **3. Cacheable**
 >  Las respuestas del servidor deben etiquetarse explícitamente como almacenables o no, permitiendo que navegadores, proxies o el propio servidor guarden copias temporales para reducir la carga de red.
 
-> [!💡]  **4. Interfaz Uniforme**
+> [!info]  **4. Interfaz Uniforme**
 >  Uso estandarizado de identificadores de recursos únicos (URLs claras) y métodos HTTP estándar (`GET`, `POST`, `PUT`, `DELETE`).
 
-> [!💡]  **5. Sistema en Capas**
+> [!info]  **5. Sistema en Capas**
 >  El cliente no sabe si se conecta directamente al servidor final o a un intermediario. Permite estructurar la arquitectura en capas: *Cliente ➔ API Gateway ➔ Servidor de Aplicación ➔ Base de Datos*.
 
-> [!💡]  **6. HATEOAS (Hypermedia As The Engine Of Application State - Opcional)** 
+> [!info]  **6. HATEOAS (Hypermedia As The Engine Of Application State - Opcional)** 
 > El JSON devuelto por el servidor incluye dinámicamente enlaces (URLs) que funcionan como un mapa de navegación para que el cliente conozca qué acciones puede realizar a continuación.
 
-> [!💡] ⚖️ Clasificación Práctica de APIs REST
+> [!info] ⚖️ Clasificación Práctica de APIs REST
 > * **REST API:** Implementa la teoría REST de forma pragmática adoptando la mayoría de los principios. Su principal diferencia es que **no utiliza HATEOAS**, prefiriendo configuraciones más ágiles e inmediatas como las abstracciones de controladores (`ModelViewSet` o `@RestController`).
 > * **RESTful API:** Implementa de manera estricta y purista **todos los principios** de la teoría REST, incluyendo obligatoriamente el uso de HATEOAS (lo que se traduce en más líneas de código).
 
@@ -385,7 +385,7 @@ Cuando un servicio necesita solicitar información a otro, el framework ofrece d
 Es el estándar por excelencia para la autenticación **Stateless** (sin estado). Genera un token firmado criptográficamente tras el inicio de sesión exitoso, el cual viaja en cada petición HTTP posterior para verificar la identidad del cliente.
 * *Caso Real:* "En *Textiles* lo implementé para blindar los endpoints del backend y restringir el acceso a los módulos de inventario únicamente a usuarios autenticados."
 
-> [!🔥] **Ventajas de JWT en Microservicios**
+> [!success] **Ventajas de JWT en Microservicios**
 > * ✅ **STATELESS:** No consume memoria ni tablas de sesión en la base de datos del servidor.
 > * ✅ **ESCALABLE:** Capaz de operar sobre arquitecturas distribuidas de más de 1000 servidores sin conflictos.
 > * ✅ **RÁPIDO:** El servidor valida el acceso verificando la firma criptográfica, eliminando consultas recurrentes a la BD.

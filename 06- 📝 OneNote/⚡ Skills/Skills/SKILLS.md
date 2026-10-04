@@ -35,6 +35,6 @@
 ### 🧠 `brainstorming`
 * **Propósito:** Actúa como un consultor técnico para **planificar, modelar y estructurar el flujo lógico y la arquitectura** de una funcionalidad específica antes de tirar la primera línea de código.
 
-> [!🚀] **Caso de Uso Común**
+> [!example] **Caso de Uso Común**
 > Ideal para mapear casos de uso complejos y definir qué componentes se necesitan en el sistema.
 > * **🎯 Ejemplo de Prompt:** *"Quiero crear la funcionalidad para agregar productos al carrito de compras, ¿me puedes ayudar a planificar el flujo completo usando la skill `brainstorming`?"*

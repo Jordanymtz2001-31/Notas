@@ -35,7 +35,7 @@ Con el entorno virtual **activado**, instala los paquetes esenciales para levant
   pip install httpx
   ```
 
-> [!🚀] **Diferencia Clave: HTTPX vs. Requests**
+> [!info] **Diferencia Clave: HTTPX vs. Requests**
 > A diferencia de la librería tradicional `requests` (que es estrictamente sincrónica y bloqueante), **`httpx` es compatible con funciones asíncronas (`async/await`)**, lo que permite aprovechar al máximo la arquitectura concurrente y de alta velocidad nativa de FastAPI.
 
 ---
@@ -74,6 +74,6 @@ Para arrancar el microservicio localmente y ponerlo en modo de escucha, ejecuta 
 uvicorn main:app --reload
 ```
 
-> [!💡] **Desglose del comando Uvicorn**
+> [!info] **Desglose del comando Uvicorn**
 > * **`main:app`** → Le indica al servidor que busque el archivo llamado `main.py` y ejecute la instancia declarada con el nombre `app`.
 > * **`--reload`** → Activa el modo de desarrollo. El servidor monitorea tu código e **inyecta los cambios automáticamente** en tiempo real cada vez que guardas un archivo, eliminando la necesidad de reiniciar la terminal manualmente.

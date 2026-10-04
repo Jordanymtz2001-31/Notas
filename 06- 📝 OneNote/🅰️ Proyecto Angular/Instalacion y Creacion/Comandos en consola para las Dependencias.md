@@ -89,7 +89,7 @@ Ejecuta estos comandos parándote en la **raíz del proyecto** para agregar util
   ng g g core/guards/auth --functional
   ```
 
-> [!💡] **¿Por qué utilizar el flag `--functional`?**
+> [!tip] **¿Por qué utilizar el flag `--functional`?**
 > En versiones anteriores de Angular, los *guards* se manejaban como clases complejas con mucha carga de código estructural. Al usar el flag `--functional` (estándar nativo a partir de Angular 17+), el framework genera una **función flecha simple** mucho más limpia y rápida de mantener.
 
 ### ⚙️ Menú de Configuración del Guardian (`ng g g`)

@@ -44,7 +44,7 @@ pip install requests                   # Librería para hacer peticiones HTTP (U
 pip install beautifulsoup4             # Parser de HTML (Usada en Testing para analizar respuestas visuales como Test Sprite)
 ```
 
-> [!🚀] **Producción y Despliegue**
+> [!info] **Producción y Despliegue**
 > * **Congelar dependencias:** Reúne y empaqueta de forma automática todas las librerías instaladas en tu entorno junto con sus versiones exactas. Esto garantiza que cualquier compañero o servidor de producción pueda replicar tu ecosistema.
 >   ```bash
 >   pip freeze > requirements.txt
