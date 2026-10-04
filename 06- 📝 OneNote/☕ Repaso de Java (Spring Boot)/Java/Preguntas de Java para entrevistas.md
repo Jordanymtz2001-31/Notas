@@ -289,3 +289,15 @@ En mis desarrollos con Spring, la separación estricta de componentes asegura qu
 ### 🔹 DIP (Dependency Inversion) mediante la Inyección de Beans
 * **Implementación:** Las clases de la capa de negocio (`Services`) nunca se acoplan ni dependen de las clases concretas de infraestructura (como una implementación directa de `JpaRepository` o una base de datos específica). 
 * **Mecanismo:** El `Service` declara su dependencia apuntando a una **interfaz o abstracción**, y es el contenedor de inversión de control de Spring el encargado de inyectar dinámicamente la implementación correspondiente en tiempo de ejecución.
+
+---
+
+## 📅 12. Formato de Fechas y Horas (`DateTimeFormatter`)
+
+### 🔹 Fábricas localizadas
+`DateTimeFormatter.ofLocalizedDate/Time/DateTime(FormatStyle)` crean formateadores según el **locale** del sistema. El estilo decide el nivel de detalle: `SHORT` (numérico/corto), `MEDIUM` (legible con algo más), `LONG` y `FULL` (máximo detalle; en hora suelen exigir `ZoneId`).
+
+> [!tip] **¿Cuándo usar localized vs pattern?**
+> `ofLocalized*` → para **humanos** con locale conocido (UI, correos, reportes).
+> `ofPattern("yyyy-MM-dd")` o ISO → para **APIs REST, logs y BD** (formato estable y predecible).
+> Para más detalles revisa [[04-DateTimeFormatter y FormatStyle]].
