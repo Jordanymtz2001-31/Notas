@@ -187,6 +187,9 @@ Palabras clave que deciden qué partes del código quedan expuestas y cuáles pr
 * **`default` (Sin palabra clave):** El elemento es accesible única y exclusivamente por clases que pertenezcan al **mismo paquete**.
 * **`private`:** Restricción total. El elemento es accesible únicamente dentro de las llaves de la misma clase.
 
+> [!tip] **Visibilidad al heredar y sobreescribir**
+> Al sobreescribir un método **no se puede cerrar** su visibilidad: solo conservarla o ampliarla. Si el padre es `public`, el hijo debe serlo también. Para más detalles revisa [[03-Visibilidad en Herencia de Java]].
+
 ### 🎛️ Métodos de Instancia vs. Métodos Estáticos
 *📍 ==> Ref: Práctica 15 - Semana 1 - Enucom 2*
 
