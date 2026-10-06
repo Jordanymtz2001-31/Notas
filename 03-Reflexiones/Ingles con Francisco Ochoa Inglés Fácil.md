@@ -23,6 +23,7 @@ Conceptos de inglés de [[12-Cursos de Ingles]]
 ## 🔍 Investigación y Respuestas
 ### Fuentes Consultadas
 * [x] Buscar en Google / Documentación Oficial: ✅ 2026-08-25
+* [x] Video Lección 14 (YouTube) + pacho8a.com + Cambridge Grammar: ✅ 2026-10-06
 * [ ] Preguntar a IA / Foros:
 
 ### Conclusión / Lo que aprendí
@@ -141,6 +142,49 @@ Conceptos de inglés de [[12-Cursos de Ingles]]
 >	- No, those are not my friends
 >	- ¿Quienes son esos? --> Who are those?
 >	- Thos are my grandma and my sister.
+>
+> #### **Presente simple — Cambios en la 3ra persona (Lección 14)**
+> **Fuente:** [Lección 14: Presente simple en inglés | Reglas para agregar S, ES e IES](https://youtu.be/m0kTGL6Flzg) — Francisco Ochoa Inglés Fácil
+>
+> **¿Cuándo aplico estas reglas?**
+> *   **Solo con he / she / it** (tercera persona del singular). Con *I, you, we, they* el verbo **no cambia**, va en su forma base: *I work, they work*.
+> *   **Solo en oraciones afirmativas.** Si es negativa → van con *don't / doesn't*; si es interrogativa → van con *do / does*. En esos dos casos las reglas no aplican.
+>
+> #### Tabla comparativa: el mismo verbo en todas las personas
+> | Persona | Sujeto | Verbo (forma) | Ejemplo |
+> | :--- | :--- | :--- | :--- |
+> | 1ra singular | I | work *(base)* | I work every day |
+> | 2da singular | You | work *(base)* | You work every day |
+> | **3ra singular** | **He / She / It** | **work → works** *(cambia)* | He **works** every day |
+> | 1ra plural | We | work *(base)* | We work every day |
+> | 2da plural | You | work *(base)* | You work every day |
+> | 3ra plural | They | work *(base)* | They work every day |
+>
+> **Solo la fila de he/she/it cambia.** Ese es el corazón de la lección.
+>
+> #### Las 5 reglas para cambiar el verbo
+> | # | Cuándo | Qué hago con el verbo | Ejemplo en 3ra persona |
+> | :--- | :--- | :--- | :--- |
+> | 1 | **Regla general** | Agrego **-s** | drink → drink**s** · work → work**s** · know → know**s** |
+> | 2 | Termina en **-ch, -ss, -sh, -x, -zz** o en **-o** | Agrego **-es** | watch → watch**es** · wash → wash**es** · mix → mix**es** · go → go**es** · do → do**es** |
+> | 3 | Termina en **consonante + y** | La **y** se cambia por **-ies** | study → stud**ies** · cry → cr**ies** · fly → fl**ies** |
+> | 4 | Termina en **vocal + y** | Solo agrego **-s** | play → play**s** · enjoy → enjoy**s** · say → say**s** |
+> | 5 | **Irregulares** (no siguen ninguna regla) | Cambian completamente | be → **is** · have → **has** |
+>
+> **Ojo con esto:**
+> *   **have → has:** *Carmen has a dog* (Carmen tiene un perro). En plural no cambia: *They have two dogs*.
+> *   **Modales (can, could, may, might, must, should, would):** **nunca cambian** con nadie. *She can dance* → Ella puede bailar.
+> *   Verbo terminado en **-e** → solo lleva **-s**: *like → likes*, *dance → dances*, *prepare → prepares*.
+>
+> **Ejemplos completos (afirmativas):**
+> 	- Mi hermana habla inglés, pero mis hermanos hablan francés --> My sister speak**s** English, but my brothers speak French.
+> 	- A él le gusta bailar salsa --> He like**s** to dance salsa.
+> 	- Nosotros vemos televisión / Mi mamá ve televisión en su habitación --> We watch TV / My mother watch**es** TV in her bedroom.
+> 	- El bebé llora todo el día / Edna canta canciones --> The baby cr**ies** all day / Edna sing**s** songs.
+> 	- El profesor hace 10 ejercicios --> The teacher do**es** ten exercises.
+> 	- Ella sabe las respuestas porque practica inglés todos los días --> She kn**ows** the answers because she practi**ces** English every day.
+>
+> *Verificado con [Cambridge English Grammar Today — Present simple](https://dictionary.cambridge.org/grammar/british-grammar/present-simple).*
 
 
 
