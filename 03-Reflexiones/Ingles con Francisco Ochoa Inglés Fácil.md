@@ -120,21 +120,27 @@ Conceptos de inglés de [[12-Cursos de Ingles]]
 > 	- Estos son mis amigos --> These are my friends
 > 	- Ellos son mis amigos --> Those are my friends
 > ##### Ejemplo en Pregunta y negativo
+> ##### Este --> This (Cerca/Singular)
 > 	- ¿Este es un oficial de policia? --> Is this a police officer?
 > 	- Yes, this is a police officer --> No, is not a police officer
 > 	- ¿Quien es ese? --> Who is that?  
 > 	- That is a police officer
 > 	- ¿Donde esta el? --> Where is that he?
->#
+>##### Eso --> That (Legos/Singular)
 >	- ¿Eso es una manzana? --> Is that an apple?
 >	- No, that is not an apple.
 >	- ¿Que es eso? --> What is that?
 >	- That is a tomato.
->#
->	- ¿Esos son periodicos? --> Are these newspapers?
+>#####  Estos --> These (Cerca / Plural)
+>	- ¿Estos son periodicos? --> Are these newspapers?
 >	- No, these are not newspapers
->	- ¿Que son esos? --> What are these?
+>	- ¿Que son estos? --> What are these?
 >	- These are books
+>##### Esos --> Those (Legos/Plural)
+>	- ¿Esos son tus amigos? --> Are those your friends?
+>	- No, those are not my friends
+>	- ¿Quienes son esos? --> Who are those?
+>	- Thos are my grandma and my sister.
 
 
 
