@@ -119,6 +119,22 @@ Conceptos de inglés de [[12-Cursos de Ingles]]
 > 	- Esas 2 manzanas --> Those are two apples
 > 	- Estos son mis amigos --> These are my friends
 > 	- Ellos son mis amigos --> Those are my friends
+> ##### Ejemplo en Pregunta y negativo
+> 	- ¿Este es un oficial de policia? --> Is this a police officer?
+> 	- Yes, this is a police officer --> No, is not a police officer
+> 	- ¿Quien es ese? --> Who is that?  
+> 	- That is a police officer
+> 	- ¿Donde esta el? --> Where is that he?
+>#
+>	- ¿Eso es una manzana? --> Is that an apple?
+>	- No, that is not an apple.
+>	- ¿Que es eso? --> What is that?
+>	- That is a tomato.
+>#
+>	- ¿Esos son periodicos? --> Are these newspapers?
+>	- No, these are not newspapers
+>	- ¿Que son esos? --> What are these?
+>	- These are books
 
 
 
