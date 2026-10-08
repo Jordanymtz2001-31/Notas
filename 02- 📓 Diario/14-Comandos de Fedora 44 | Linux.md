@@ -70,7 +70,12 @@ fuente_origen: Con la IA de Google
 >
 > ## 💠 Gestion de contraseñas 
 > * Conexion para Oracle con usuario root (user: system, dataBase: FREE): 15963
-> * Conexion para Oracle con usuario MLRB (dataBase; FREE): 
+> * Conexion para Oracle con usuario MLRB (dataBase; FREE): 12345
+>
+>## Actualizacion del Spotify
+> * Cuando note que spotify volvio a ser el original ejecutar este comando spicetify apply
+>
+>
 
 ---
 
