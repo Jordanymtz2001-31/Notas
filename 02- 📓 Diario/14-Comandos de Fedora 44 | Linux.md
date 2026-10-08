@@ -73,8 +73,7 @@ fuente_origen: Con la IA de Google
 > * Conexion para Oracle con usuario MLRB (dataBase; FREE): 12345
 >
 >## Actualizacion del Spotify
-> * Cuando note que spotify volvio a ser el original ejecutar este comando spicetify apply
->
+> * Cuando note que spotify volvio a ser el original ejecutar este comando `spicetify apply`. Este comando tambien tomara las extenciones que ya estan guardadas.
 >
 
 ---
