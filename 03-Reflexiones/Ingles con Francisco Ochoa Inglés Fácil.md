@@ -142,8 +142,8 @@ Conceptos de inglés de [[12-Cursos de Ingles]]
 >	- No, those are not my friends
 >	- ¿Quienes son esos? --> Who are those?
 >	- Thos are my grandma and my sister.
->
-> #### **Presente simple — Cambios en la 3ra persona
+
+> [!abstract] **Presente simple — Cambios en la 3ra persona **
 >
 > **¿Cuándo aplico estas reglas?**
 > *   **Solo con he / she / it** (tercera persona del singular). Con *I, you, we, they* el verbo **no cambia**, va en su forma base: *I work, they work*.
@@ -184,6 +184,16 @@ Conceptos de inglés de [[12-Cursos de Ingles]]
 > 	- Ella sabe las respuestas porque practica inglés todos los días --> She kn**ows** the answers because she practi**ces** English every day.
 >
 > *Verificado con [Cambridge English Grammar Today — Present simple](https://dictionary.cambridge.org/grammar/british-grammar/present-simple).*
+>
+> **Presente simple Negativo/Interrogativa**
+>
+> **Ejemplos DOES**:
+> 	- + El juega futbol --> He play`s` soccer.
+> 	- - El no juega futbol -->  He does not play soccer(Se elimina la `s`).
+> 	- ? ¿El juega futbol? --> Does he play soccer? (Se elimina la `s`).
+> **Ejemplo DO: **
+> 	- + Ello
+
 
 
 
