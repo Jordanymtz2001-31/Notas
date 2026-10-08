@@ -2,11 +2,12 @@
 
 ## ☀️ Foco Principal del Día
 *¿Cuál es la única cosa que si logro hoy hará que el día valga la pena?*
-- [ ] Seguir aprendiendo el idioma nativo de Ingles [[005-Cursos de Aprendizaje]] (@2026-10-06 15:00)
+- [ ] Seguir aprendiendo el idioma nativo de Ingles [[005-Cursos de Aprendizaje]] (@2026-10-08 15:00)
 
 ## 📝 Tareas
 - [x] 14:00 Revisar con que cursos empezare de los diferentes canales 📅 2026-08-25 . ✅ 2026-08-25
-- [ ] 14:00 Estudiar Cursos de Ingles de Francisco Ochoa Inglés Fácil Leccion 4 🔁 every week on Tuesday, Thursday 📅 2026-10-06
+- [ ] 14:00 Estudiar Cursos de Ingles de Francisco Ochoa Inglés Fácil Leccion 4 🔁 every week on Tuesday, Thursday 📅 2026-10-08
+- [x] 14:00 Estudiar Cursos de Ingles de Francisco Ochoa Inglés Fácil Leccion 4 🔁 every week on Tuesday, Thursday 📅 2026-10-06 ✅ 2026-10-06
 - [x] 14:00 Estudiar Cursos de Ingles de Francisco Ochoa Inglés Fácil Leccion 4 🔁 every week on Tuesday, Thursday 📅 2026-10-01 ✅ 2026-10-06
 - [x] 14:00 Estudiar Cursos de Ingles de Francisco Ochoa Inglés Fácil Leccion 4 🔁 every week on Tuesday, Thursday 📅 2026-09-29 ✅ 2026-10-06
 - [x] 14:00 Estudiar Cursos de Ingles de Francisco Ochoa Inglés Fácil Leccion 4 🔁 every week on Tuesday, Thursday 📅 2026-09-24 ✅ 2026-09-25
