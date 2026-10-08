@@ -143,8 +143,7 @@ Conceptos de inglés de [[12-Cursos de Ingles]]
 >	- ¿Quienes son esos? --> Who are those?
 >	- Thos are my grandma and my sister.
 >
-> #### **Presente simple — Cambios en la 3ra persona (Lección 14)**
-> **Fuente:** [Lección 14: Presente simple en inglés | Reglas para agregar S, ES e IES](https://youtu.be/m0kTGL6Flzg) — Francisco Ochoa Inglés Fácil
+> #### **Presente simple — Cambios en la 3ra persona
 >
 > **¿Cuándo aplico estas reglas?**
 > *   **Solo con he / she / it** (tercera persona del singular). Con *I, you, we, they* el verbo **no cambia**, va en su forma base: *I work, they work*.
