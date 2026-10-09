@@ -23,7 +23,7 @@ Conceptos de inglés de [[12-Cursos de Ingles]]
 ## 🔍 Investigación y Respuestas
 ### Fuentes Consultadas
 * [x] Buscar en Google / Documentación Oficial: ✅ 2026-08-25
-* [x] Video Lección 14 (YouTube) + pacho8a.com + Cambridge Grammar: ✅ 2026-10-06
+* [x] Video Lecciones 14 y 15 (YouTube) + pacho8a.com + Cambridge Grammar: ✅ 2026-10-06
 * [ ] Preguntar a IA / Foros:
 
 ### Conclusión / Lo que aprendí
@@ -185,17 +185,43 @@ Conceptos de inglés de [[12-Cursos de Ingles]]
 >
 > *Verificado con [Cambridge English Grammar Today — Present simple](https://dictionary.cambridge.org/grammar/british-grammar/present-simple).*
 >
-> **Presente simple Negativo/Interrogativa**
+> #### **Presente simple — Negativa e interrogativa con DO / DOES (Lección 15)**
+> **Fuente:** [Lección 15: Cómo usar DO y DOES en presente simple](https://youtu.be/8gN9rSN54VI) — Francisco Ochoa Inglés Fácil
 >
-> **Ejemplos DOES**:
-> 	- + El juega futbol --> He play`s` soccer.
-> 	- - El no juega futbol -->  He does not play soccer(Se elimina la `s`).
-> 	- ? ¿El juega futbol? --> Does he play soccer? (Se elimina la `s`).
-> **Ejemplo DO: **
-> 	- + Ello
-
-
-
+> **¿Cuándo uso DO o DOES?** En las **negativas**, en las **preguntas** y en las **respuestas cortas**. También en afirmativa, pero solo para **enfatizar**: *I do like it* → Sí me gusta.
+>
+> #### Tabla comparativa: a qué pronombre le toca cada auxiliar
+> | Auxiliar | Pronombres | Negativa | Interrogativa |
+> | :--- | :--- | :--- | :--- |
+> | **DO** (do / don't) | I, you, we, they | I do**n't** work. / They do**n't** eat meat. | **Do** I work? · **Do** they eat meat? |
+> | **DOES** (does / doesn't) | **He, She, It** | He does**n't** play soccer. | **Does** he play soccer? |
+>
+> **La regla de oro:** cuando el auxiliar ya es **does**, el verbo vuelve a su **forma base** y **se apagan** las reglas de -s/-es/-ies de la Lección 14: *Does he **play**?* (nunca ~~Does he plays~~), *She doesn't **work*** (nunca ~~doesn't works~~). La **s** la lleva el auxiliar, no el verbo.
+>
+> #### Tabla comparativa: la misma oración en sus 3 formas
+> | ✅ Afirmativa | ❌ Negativa | ❓ Interrogativa |
+> | :--- | :--- | :--- |
+> | He play**s** soccer. | He does**n't** play soccer. | Does he play soccer? |
+> | I work every day. | I do**n't** work every day. | Do I work every day? |
+> | They eat meat. | They do**n't** eat meat. | Do they eat meat? |
+> | She has a dog. | She does**n't** have a dog. | Does she have a dog? |
+>
+> **Ojo con esto:**
+> *   En la pregunta, el sujeto va **después** del auxiliar: *Does **he** play?* (en español va al revés: *¿Él juega?*).
+> *   En inglés **no hay signo de interrogación de apertura**: la oración empieza con el auxiliar y termina en **?**.
+> *   Verbo irregular con does → forma base: *She doesn't **have*** (no ~~has~~), *Does she **have***? (no ~~has~~).
+>
+> **Respuestas cortas:**
+> 	- Yes, he does. / No, he doesn't.
+> 	- Yes, they do. / No, they don't.
+>
+> **Pregunta negativa (interronegativa):** ¿No comen ellos carne? --> Don't they eat meat? → Yes, they do. / No, they don't.
+>
+> **Contracciones:** *do not → don't* · *does not → doesn't*
+>
+> *Verificado con [Cambridge English Grammar Today — Present simple](https://dictionary.cambridge.org/grammar/british-grammar/present-simple).*
+>
+>
 
 ---
 

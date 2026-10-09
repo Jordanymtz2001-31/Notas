@@ -2,7 +2,7 @@
 
 ## ☀️ Foco Principal del Día
 *¿Cuál es la única cosa que si logro hoy hará que el día valga la pena?*
-- [ ] Seguir aprendiendo el idioma nativo de Ingles [[005-Cursos de Aprendizaje]] (@2026-10-08 15:00)
+- [ ] Seguir aprendiendo el idioma nativo de Ingles [[005-Cursos de Aprendizaje]] (@2026-10-13 15:00)
 
 ## 📝 Tareas
 - [x] 14:00 Revisar con que cursos empezare de los diferentes canales 📅 2026-08-25 . ✅ 2026-08-25
