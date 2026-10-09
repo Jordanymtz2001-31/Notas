@@ -27,6 +27,13 @@ Es la opción predilecta en arquitecturas corporativas debido a que incrementa d
 ### 🅰️ Objetos Inmutables Nativos de Java
 En Java nativo existen unos cuantos y en Spring Boot otros; para más detalles consulta [[02-Objetos Inmutables en Java y Spring]].
 
+### 🔤 Cadenas Mutables (`StringBuilder` y `StringBuffer`)
+* `String` es **inmutable**: cada operación crea un objeto nuevo. Para construir cadenas grandes de forma eficiente (bucles, logs, consultas dinámicas), Java ofrece dos **secuencias de caracteres mutables** con buffer interno que crece automáticamente:
+  * **`StringBuilder`** → **no thread-safe**, más rápido. Es el **recomendado** en un solo hilo.
+  * **`StringBuffer`** → **thread-safe** (métodos `synchronized`), más lento. Usarlo solo si **varios hilos** escriben en la misma instancia.
+* ⚠️ **No mutan primitivos ni objetos**: `append(42)` convierte el `int` a `"42"` y lo agrega como texto. Tampoco se relacionan con la inmutabilidad de DTOs (eso es diseño de capas, no de cadenas).
+* Para más detalles de mi experiencia revisa [[05-StringBuilder y StringBuffer]].
+
 ### 🧩 ¿Qué es Optional?
 - **`Optional<T>` es una CLASE** (específicamente una clase final contenedora) que pertenece al paquete `java.util`.
 - Es una clase introducida en Java 8 que funciona como una **caja o envoltura (wrapper)**. Puede estar llena (contener un objeto) o vacía (reemplazando al peligroso `null`) . Su objetivo es obligar al programador a validar si el dato existe antes de usarlo, eliminando el famoso error `NullPointerException`.
