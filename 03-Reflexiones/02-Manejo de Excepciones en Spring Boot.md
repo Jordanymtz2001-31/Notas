@@ -1,6 +1,6 @@
 ---
 tipo: duda-investigacion
-estatus: FInalizado
+estatus: Finalizado
 categoria: Excepciones
 fecha_registro: 2026-08-31
 fecha_resolucion: 2026-08-31
@@ -38,7 +38,7 @@ fuente_origen: Con la IA de Google
 > ## 🛠️ Conceptos Clave: ¿Para qué sirve cada uno?
 > No todos los mecanismos sirven para lo mismo. En una arquitectura limpia, se complementan en lugar de sustituirse:
 > * **`throw` (El Lanzador):** Es una **acción inmediata**. Se utiliza dentro del cuerpo de un método (por ejemplo, en un bloque `if`) para detener el flujo actual y avisar que se rompió una regla de negocio. Su función es *crear el problema*, no solucionarlo. 
-> * **`throws` (La Advertencia):** Es una **declaración en la firma del método** (`public void miMetodo() throws Exception`). Obliga al compilador de Java a exigir un control estricto mediante un bloque `try-catch` a cualquiera que intente usar ese método. Se utiliza para advertir sobre fallos técnicos inevitables (como la caída de una base de datos o un archivo inexistente). 
+> * **`throws` (La Advertencia):** Es una **declaración en la firma del método** (`public void miMetodo() throws Exception`) y forma parte del **contrato** entre quien implementa el método y quien lo usa. Para excepciones **checked**, obliga al llamador a elegir: **capturarla con `try-catch` o propagarla** declarándola en su propio `throws`; no existe una tercera opción. Para excepciones **unchecked** no obliga nada al compilador; se usa solo como documentación. Por convención se reserva para fallos técnicos previsibles (archivo inexistente, caída de BD), pero esa es una regla de diseño, no del JLS. 
 > * **`try-catch-finally` (La Solución Local):** Se utiliza únicamente cuando se tiene un **plan de respaldo inmediato** para solucionar un error técnico en el mismo instante en que ocurre (por ejemplo, si falla un servidor de base de datos principal, el `catch` reconecta inmediatamente a uno secundario). Si no se puede solucionar el problema ahí mismo, es mejor no usarlo. 
 > * **`GlobalExceptionHandler` (La Red de Seguridad):** Es un componente centralizado en la capa web (`@ControllerAdvice`). Su función es interceptar cualquier error que haya escalado desde las capas inferiores y transformarlo en una respuesta HTTP limpia, estandarizada y segura para el usuario final (por ejemplo, un JSON con código de estado `404` o `400`), evitando mostrar código interno (*Stacktrace*). 
 > ---
@@ -59,7 +59,17 @@ fuente_origen: Con la IA de Google
 > ## 💡 Conclusión para el Proyecto
 > El diseño de tu lógica es **impecable y sigue los estándares de la industria**. El uso de métodos funcionales como `.orElseThrow()` y cortes de flujo con `throw new ProfesorDuplicadoException()` en tu servicio permiten que el código de negocio sea legible y que la responsabilidad de dar formato al error recaiga completamente en tu **GlobalExceptionHandler**.
 
+### 📊 Checked vs Unchecked: ¿cuándo `throws` obliga?
 
+La distinción entre verificadas y no verificadas es la que decide si la cláusula `throws` tiene efecto real sobre el compilador (JLS §11.1.1 y §11.2):
+
+| Característica | Checked (verificadas) | Unchecked (no verificadas) |
+| :--- | :--- | :--- |
+| **Clases** | Todas las excepciones que no sean `RuntimeException` ni `Error` ni sus subclases | `RuntimeException` y sus subclases, `Error` y sus subclases |
+| **Ejemplos** | `IOException`, `SQLException`, `FileNotFoundException` | `NullPointerException`, `ArithmeticException`, `IllegalArgumentException` |
+| **Obligación del compilador** | ⚠️ Exige capturarlas con `try-catch` o propagarlas con `throws` | 🔓 Exentas de comprobación; no exige nada |
+| **Efecto de `throws` en la firma** | Efectivo: el llamador debe elegir entre capturar o propagar | Solo documentación; no cambia la compilación |
+| **Uso típico en Spring Boot** | Casi no se usan en la lógica de negocio | Excepciones personalizadas de negocio (`extends RuntimeException`) |
 
 ---
 
