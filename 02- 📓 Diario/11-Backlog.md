@@ -10,7 +10,7 @@
 - [x] 📌 Revisar que venificios tengo con tener un plan standar de 200 GB con Google. ✅ 2026-08-21
 - [x] 📌 Limpiar sillas 📅 2026-08-24 ✅ 2026-08-24
 - [ ] Leer mis Nuevas Notas con las de la aplicacion de OneNote que no termine de [[006-Migracion OneNote a Linux]] #backlog 
-- [ ] Subir mis wallpapers en la nube, ya que un subcriptor le gusto. #backlog 
+- [x] Subir mis wallpapers en la nube, ya que un subcriptor le gusto. #backlog ✅ 2026-10-10
 - [ ] 📌 Investigar e implementar gestores de Contraseña #backlog 
 - [x] ⏫ Revisar lo de mi registro de Numero de Telefono ✅ 2026-08-31
 - [x] Colocar en la SKILL de Obsidian que investigue sobre el tema que le estoy comentando para que verifique si es correcto con lo que le estoy diciendo #backlog ✅ 2026-10-02
