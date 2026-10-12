@@ -44,22 +44,22 @@ Son **secuencias de caracteres mutables**. A diferencia de `String` (que una vez
 
 ### Las 3 correcciones a mi entendimiento inicial
 
-| # | Afirmación inicial (❌) | Realidad (✅) |
-| :--- | :--- | :--- |
-| 1 | "mutan datos primitivos u objetos" | Solo construyen/modifican **cadenas de caracteres**. `append(int)` acepta un entero, pero lo **convierte a su representación en texto** y lo agrega al buffer: no hace mutables las variables primitivas. |
-| 2 | "los DTOs se validan inmutables por una interfaz" | La inmutabilidad de un DTO (`record`, campos `final`, validación con `@Valid`) es un concepto de **diseño de capas**, ajeno a `StringBuilder`/`StringBuffer`. Son temas separados. |
-| 3 | "crea temporalmente ese objeto y se lo asigna al original" | `append()` trabaja sobre un buffer interno con **capacity** que crece automáticamente; al final, `toString()` construye una **`String` nueva** a partir de ese buffer. No se "asigna al original": se crea una `String` resultante. |
+| #   | Afirmación inicial (❌)                                     | Realidad (✅)                                                                                                                                                                                                                        |
+| :-- | :--------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | "mutan datos primitivos u objetos"                         | Solo construyen/modifican **cadenas de caracteres**. `append(int)` acepta un entero, pero lo **convierte a su representación en texto** y lo agrega al buffer: no hace mutables las variables primitivas.                           |
+| 2   | "los DTOs se validan inmutables por una interfaz"          | La inmutabilidad de un DTO (`record`, campos `final`, validación con `@Valid`) es un concepto de **diseño de capas**, ajeno a `StringBuilder`/`StringBuffer`. Son temas separados.                                                  |
+| 3   | "crea temporalmente ese objeto y se lo asigna al original" | `append()` trabaja sobre un buffer interno con **capacity** que crece automáticamente; al final, `toString()` construye una **`String` nueva** a partir de ese buffer. No se "asigna al original": se crea una `String` resultante. |
 
 ---
 
 ### Diferencia clave entre ambos
 
-| Característica | `StringBuilder` | `StringBuffer` |
-| :--- | :--- | :--- |
-| **Thread-safe** | ❌ No | ✅ Sí (`synchronized`) |
-| **Desde** | Java 5 | Java 1.0 |
-| **Rendimiento** | ⚡ Más rápido (sin overhead de sincronización) | Más lento (bloqueo de monitores) |
-| **Recomendación oficial** | ✅ *"se recomienda preferirlo"* | Solo si **varios hilos** escriben en la misma instancia |
+| Característica            | `StringBuilder`                               | `StringBuffer`                                          |
+| :------------------------ | :-------------------------------------------- | :------------------------------------------------------ |
+| **Thread-safe**           | ❌ No                                          | ✅ Sí (`synchronized`)                                   |
+| **Desde**                 | Java 5                                        | Java 1.0                                                |
+| **Rendimiento**           | ⚡ Más rápido (sin overhead de sincronización) | Más lento (bloqueo de monitores)                        |
+| **Recomendación oficial** | ✅ *"se recomienda preferirlo"*                | Solo si **varios hilos** escriben en la misma instancia |
 
 ---
 
