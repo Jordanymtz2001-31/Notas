@@ -24,6 +24,31 @@ Es la opción predilecta en arquitecturas corporativas debido a que incrementa d
 | **`HashMap` / Maps** | 🔓 **Mutable** (Diccionario)      | Colección estructurada en pares **Clave-Valor**, donde la clave actúa como el campo indexado y el valor guarda el dato correspondiente. |
 |                      |                                   |                                                                                                                                         |
 
+### 📐 Arreglos y Matrices (`Array` y `Array[]`)
+
+* **Arreglo (`array`):** contenedor de **tamaño fijo** que guarda valores de un **único tipo**. Se declara con `tipo[]` y se crea con `new tipo[tamaño]`; el índice empieza en **0**.
+* **Matriz (array bidimensional):** en Java es **un array cuyos componentes son, a su vez, arrays** (`int[][]`). No es un "conjunto de listas": es un **array de arrays**.
+* **Filas de distinta longitud (*ragged*):** a diferencia de C/Fortran, en Java cada fila puede tener **un tamaño diferente** porque es un array independiente.
+* ⚠️ **`List` no es matriz:** `ArrayList`/`List` es una colección dinámica de la interfaz `Collection`; la matriz es un array de tamaño fijo. Son conceptos distintos.
+
+```java
+// Matriz 3x3 (3 filas, 3 columnas)
+int[][] matriz = {
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}
+};
+
+System.out.println(matriz[1][2]); // 6 (fila 1, columna 2)
+
+// Matriz "ragged": filas de distinta longitud
+int[][] irregular = {
+    {1, 2},
+    {3, 4, 5},
+    {6}
+};
+```
+
 ### 🅰️ Objetos Inmutables Nativos de Java
 En Java nativo existen unos cuantos y en Spring Boot otros; para más detalles consulta [[02-Objetos Inmutables en Java y Spring]].
 
