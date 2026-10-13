@@ -215,9 +215,10 @@ Es un **contrato profesional 100% abstracto** que define firmas de métodos sin 
 ### 🔒 Modificadores de Acceso
 Palabras clave que deciden qué partes del código quedan expuestas y cuáles protegidas bajo las reglas del encapsulamiento:
 * **`public`:** El elemento es accesible desde cualquier clase de la aplicación.
-* **`protected`:** Accesible dentro de la misma clase, por clases del mismo paquete y por cualquier subclase (hija) mediante herencia.
-* **`default` (Sin palabra clave):** El elemento es accesible única y exclusivamente por clases que pertenezcan al **mismo paquete**.
+* **`protected`:** Accesible dentro de la misma clase, por clases del mismo paquete y por cualquier subclase (hija) mediante herencia. No puede ser accesible desde cual quier clase.
+* **`default` (Sin palabra clave):** El elemento es accesible única y exclusivamente por clases que pertenezcan al **mismo paquete** y a la misma clase. No es accesible en sub-clases ni en clases distintas.
 * **`private`:** Restricción total. El elemento es accesible únicamente dentro de las llaves de la misma clase.
+Importante: el estado del objeto en concreto se controla mediante metódos, los cuales son los getter y setters.
 
 > [!tip] **Visibilidad al heredar y sobreescribir**
 > Al sobreescribir un método **no se puede cerrar** su visibilidad: solo conservarla o ampliarla. Si el padre es `public`, el hijo debe serlo también. Para más detalles revisa [[03-Visibilidad en Herencia de Java]].
