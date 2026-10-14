@@ -126,6 +126,27 @@ public class Main {
 }
 ```
 
+
+
+---
+
+### Relación con otras estructuras de datos
+
+Es importante distinguir entre **ser** una pila/cola y **usarse para implementar o recorrer** otras estructuras.
+
+| Concepto | ¿Es pila/cola? | Explicación |
+| :--- | :--- | :--- |
+| **Arrays (`[]`)** | ❌ No | Son estructuras de acceso aleatorio (por índice). Sin embargo, `ArrayDeque` **implementa** pilas y colas **usando un array circular** por debajo. |
+| **`ArrayList`/`List`** | ❌ No | No son FIFO/LIFO nativos. Aunque puedes simular pila/cola (añadir/quitar al final), no es su propósito. Usa `ArrayDeque` o `LinkedList` para cola/pila. |
+| **`Set` / `HashSet` / `TreeSet`** | ❌ No | Trabajan con unicidad de elementos, sin orden FIFO/LIFO definido. |
+| **`Map` / `HashMap` / `TreeMap`** | ❌ No | Pares clave-valor, no son secuencias lineales. |
+| **Árboles (`Tree`, `BinaryTree`)** | ❌ No | Estructuras jerárquicas. **Sí se usan pilas/colas en sus recorridos:** DFS (Depth-First Search) usa **pila** (recursiva o explícita), BFS (Breadth-First Search) usa **cola** (nivel por nivel). |
+| **Grafos** | ❌ No | Igual que árboles: BFS usa **cola** para recorrer por niveles; DFS usa **pila** (o recursividad). El grafo no es pila/cola, el algoritmo las emplea como herramienta. |
+
+> [!tip] **Regla mnemotécnica**
+> *DFS = Deep (profundidad) → usa **Stack (Pila)***  
+> *BFS = Breadth (amplitud) → usa **Queue (Cola)***
+
 > [!warning] **Recomendación oficial**
 > Para usar una **pila**, prefiere **`ArrayDeque`** sobre `Stack`. `Stack` hereda de `Vector` (sincronizado y legado). `ArrayDeque` es más ligero y moderno.
 
