@@ -17,6 +17,7 @@
 - [x] Colocar en la SKILL que al momento de que le diga que cree una nota sobre x tema el sepa a que carpeta o minibault pertenece y claro hacerme la pregunta sobre es correcto y que use la plantilla Dudad y reflexion #backlog ✅ 2026-10-02
 - [x] Cuando diga que es un tema de actividad para dias posteriores entonces que use la plantillas de Diario #backlog ✅ 2026-10-02
 - [x] Cuando mencione que empezaremos un nuevo proyecto entonces que use la plantilla de Poryecto #backlog ✅ 2026-10-02
+- [ ] Recordatorio: No olvides etiquetar a @IBM y usar #IBMSkillsBuild, #AI y #Developer cuando compartas tu logro en tus redes. Curso de [[10-Curso IBM SkillsBuild]] .
 
 > [!abstract] 💭 Reflexiones y Notas
 >-  En cuanto a mis notas de One Note ya valide que la nota de Repaso de Java esta Corresto.
