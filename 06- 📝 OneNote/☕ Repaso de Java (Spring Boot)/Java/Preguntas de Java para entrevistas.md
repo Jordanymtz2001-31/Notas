@@ -284,7 +284,7 @@ public void validar(int id) throws IllegalArgumentException {
 * *Podemos ver los detalles en [[02-Manejo de Excepciones en Spring Boot]] donde explico las diferencias de cada uno, cuando y donde cada uno.*
 ---
 
-## 🗃️ 9. Estructuras de Datos Avanzadas (Collections Framework)
+### Estructuras de Datos Avanzadas (Collections Framework)
 
 Para optimizar el rendimiento de un sistema, la elección de la estructura de datos debe basarse en el tipo de operación más frecuente:
 
@@ -292,6 +292,10 @@ Para optimizar el rendimiento de un sistema, la elección de la estructura de da
 * **LinkedList (`¿Insertar/Eliminar al Inicio?`):** Lista doblemente enlazada donde cada elemento apunta al siguiente y al anterior. Es ideal para insertar o borrar datos al inicio o al final de la colección en tiempo constante ($O(1)$), por lo que suele usarse en arquitecturas especiales de colas o pilas.
 * **HashMap (`¿Buscar por Clave?`):** Estructura indexada en pares Clave-Valor. Es la opción más utilizada para búsquedas directas de alta velocidad, ya que recupera la información de forma casi instantánea mediante el cálculo de un código Hash.
 * **HashSet (`¿Unicidad de Datos?`):** Colección que **ignora de forma automática los elementos repetidos**. Si intentas agregar exactamente el mismo valor dos veces, el conjunto lo detecta y solo conservará una única instancia en memoria.
+
+> [!tip] **Pilas y Colas**
+> Para entender `Stack`, `Queue`, `Deque`, `ArrayDeque` y cuándo usar cada uno (LIFO vs FIFO), revisa [[06-Pilas y Colas en Java]].
+
 
 ---
 
