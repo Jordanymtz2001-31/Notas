@@ -5,10 +5,10 @@
 - 
 
 ## 📝 Tareas
-- [ ] ⏫ Ver video "THREADS (Hilos) y CONCURRENCIA en Java" — [TodoCode](https://www.youtube.com/results?search_query=THREADS+Hilos+CONCURRENCIA+en+Java+TodoCode) 📅 2026-10-15
-- [ ] ⏫ Investigar aplicaciones distribuidas (capas de un sistema en red) 📅 2026-10-15
-- [ ] ⏫ Documentar versiones de Spring Boot (último año) y de Java (desde 2020): cuáles tuvieron grandes cambios y por qué 📅 2026-10-16
-- [ ] ⏫ Investigar buenas prácticas de código limpio: herramientas y estándares según tipo de proyecto 📅 2026-10-17
+- [ ] ⏫ Ver video "THREADS (Hilos) y CONCURRENCIA en Java" — [TodoCode](https://www.youtube.com/results?search_query=THREADS+Hilos+CONCURRENCIA+en+Java+TodoCode) 📅 2026-10-18
+- [ ] ⏫ Investigar aplicaciones distribuidas (capas de un sistema en red) 📅 2026-10-18
+- [ ] ⏫ Documentar versiones de Spring Boot (último año) y de Java (desde 2020): cuáles tuvieron grandes cambios y por qué 📅 2026-10-20
+- [ ] ⏫ Investigar buenas prácticas de código limpio: herramientas y estándares según tipo de proyecto 📅 2026-10-21
 - [ ] ⏫ Investigar SCRUM (al resolverse: proponer minibaúl `METODOLOGIAS`) 📅 2026-10-18
 
 ### 📆 Agenda de Hoy
