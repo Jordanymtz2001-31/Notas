@@ -18,6 +18,7 @@
 - [x] Cuando diga que es un tema de actividad para dias posteriores entonces que use la plantillas de Diario #backlog ✅ 2026-10-02
 - [x] Cuando mencione que empezaremos un nuevo proyecto entonces que use la plantilla de Poryecto #backlog ✅ 2026-10-02
 - [ ] Recordatorio: No olvides etiquetar a @IBM y usar #IBMSkillsBuild, #AI y #Developer cuando compartas tu logro en tus redes. Curso de [[10-Curso IBM SkillsBuild]] .
+- [ ] Subir a GitGub todas mis personalizaciones de mi Fedora 44.
 
 > [!abstract] 💭 Reflexiones y Notas
 >-  En cuanto a mis notas de One Note ya valide que la nota de Repaso de Java esta Corresto.
