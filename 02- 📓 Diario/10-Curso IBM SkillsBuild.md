@@ -2,11 +2,12 @@
 
 ## ☀️ Foco Principal del Día
 *¿Cuál es la única cosa que si logro hoy hará que el día valga la pena?*
-- [ ] Curso de IBM de [[005-Cursos de Aprendizaje]] (@2026-10-16 15:00)#backlog 
+- [ ] Curso de IBM de [[005-Cursos de Aprendizaje]] (@2026-10-19 15:00)#backlog 
 
 ## 📝 Tareas
 - [x] 14:00 Entrar a la plataforma y anotar el enlace en [[005-Cursos de Aprendizaje]] 📅 2026-08-24 ✅ 2026-08-24
-- [ ] 15:00 Dar continuidad al curos de IBM 🔁 every week on Monday, Wednesday, Friday 📅 2026-10-16 
+- [ ] 15:00 Dar continuidad al curos de IBM 🔁 every week on Monday, Wednesday, Friday 📅 2026-10-19
+- [x] 15:00 Dar continuidad al curos de IBM 🔁 every week on Monday, Wednesday, Friday 📅 2026-10-16 ✅ 2026-10-17
 - [x] 15:00 Dar continuidad al curos de IBM 🔁 every week on Monday, Wednesday, Friday 📅 2026-10-14 ✅ 2026-10-15
 - [x] 15:00 Dar continuidad al curos de IBM 🔁 every week on Monday, Wednesday, Friday 📅 2026-10-12 ✅ 2026-10-13
 - [x] 14:00 Dar continuidad al curos de IBM 🔁 every week on Monday, Wednesday, Friday 📅 2026-09-23 ✅ 2026-09-25
