@@ -345,3 +345,41 @@ En mis desarrollos con Spring, la separación estricta de componentes asegura qu
 > `ofLocalized*` → para **humanos** con locale conocido (UI, correos, reportes).
 > `ofPattern("yyyy-MM-dd")` o ISO → para **APIs REST, logs y BD** (formato estable y predecible).
 > Para más detalles revisa [[04-DateTimeFormatter y FormatStyle]].
+
+---
+
+## 🧵 13. Hilos y Concurrencia (Threads & Concurrency)
+
+### 🔹 Procesos vs Hilos
+* **Proceso:** Instancia de un programa en ejecución con su propio espacio de memoria aislado.
+* **Hilo (Thread):** Unidad de ejecución dentro de un proceso. Comparten memoria, son más ligeros y permiten ejecución concurrente dentro del mismo programa.
+
+### 🔹 Concurrencia vs Paralelismo
+* **Concurrencia:** Gestionar varias tareas *a la vez* (intercalando su ejecución).
+* **Paralelismo:** Ejecutarlas *realmente al mismo tiempo* (en varios núcleos). En un único núcleo puede haber concurrencia, pero no paralelismo.
+
+### 🔹 Formas de crear hilos en Java
+1. **Extender `Thread`**: sobrescribir `run()`. Desventaja: herencia única (no permite heredar otra clase).
+2. **Implementar `Runnable`** (recomendada): solo `run()`. Ventajas: evita herencia única, permite implementar múltiples interfaces y facilita compartir la **misma instancia** entre varios hilos.
+
+**Diferencia clave:** `Runnable` no define `start()`. Para lanzar el hilo: `new Thread(runnable).start()`. **Nunca llamar `run()` directamente**: eso lo ejecuta en el hilo actual, no crea un hilo nuevo.
+
+### 🔹 Ciclo de vida de un hilo (`Thread.State` - Java SE 21)
+| Estado | Descripción |
+|---|---|
+| `NEW` | Creado pero no iniciado (`start()` aún no llamado). |
+| `RUNNABLE` | Ejecutándose en la JVM; puede esperar recursos del SO (CPU). |
+| `BLOCKED` | Bloqueado esperando adquirir un monitor lock (para entrar/reentrar a bloque sincronizado). |
+| `WAITING` | Esperando indefinidamente a que otro hilo realice una acción (`Object.wait()` sin timeout, `Thread.join()` sin timeout, `LockSupport.park()`). |
+| `TIMED_WAITING` | Esperando con tiempo límite (`Thread.sleep(long)`, `Object.wait(long)`, `Thread.join(long)`, `LockSupport.parkNanos/parkUntil`). |
+| `TERMINATED` | Ejecución finalizada (método `run()` terminó). |
+
+> [!tip] **Nota:** Algunas fuentes antiguas agrupan `BLOCKED/WAITING/TIMED_WAITING` como "en pausa"; en Java moderno son 6 estados diferenciados.
+
+### 🔹 Buenas prácticas y evolución
+* **Prefiere `Runnable`** cuando varios hilos comparten la misma tarea.
+* **Usa `ExecutorService`** para gestionar pools de hilos de forma eficiente.
+* **Hilos virtuales (Java 21):** ideales para tareas I/O-intensivas, permiten escalar muchas tareas concurrentes con menor sobrecarga.
+
+> [!info] **Desarrollo detallado**
+> Para más ejemplos, analogías y explicación ampliada: [[07-Hilos y Concurrencia en Java]].
