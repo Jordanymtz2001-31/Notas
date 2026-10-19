@@ -383,3 +383,58 @@ En mis desarrollos con Spring, la separación estricta de componentes asegura qu
 
 > [!info] **Desarrollo detallado**
 > Para más ejemplos, analogías y explicación ampliada: [[07-Hilos y Concurrencia en Java]].
+
+---
+
+## 🔢 14. Versiones de Java y Spring Boot (Clave para Trabajo y Entrevistas)
+
+### 🔹 Diferencia entre Java, Spring Framework y Spring Boot
+* **Java:** Lenguaje, bibliotecas estándar y plataforma de ejecución (JVM).
+* **Spring Framework:** Framework base (Inyección de Dependencias, Web, Integración, etc.).
+* **Spring Boot:** Conveniencia sobre Spring (autoconfiguración, dependencias coordinadas). Se apoya en Spring Framework, **no lo sustituye**.
+
+### 🔹 Versiones LTS de Java (Cambios más importantes)
+
+| Versión | Año | Cambio clave |
+|---|---|---|
+| **Java 8 (LTS)** | 2014 | **Lambdas y Streams**. Procesamiento declarativo de colecciones. |
+| **Java 11 (LTS)** | 2018 | Punto de migración tras Java 8. `var` llegó en **Java 10**, no en 11 (11 añade `var` en parámetros de lambdas). |
+| **Java 17 (LTS)** | 2021 | **Records** (Java 16), **Pattern Matching `instanceof`** (Java 16), **Text Blocks** (Java 15), **Switch expressions** (Java 14), **Clases selladas** (Java 17). |
+| **Java 21 (LTS)** | 2023 | **Virtual Threads** (concurrencia ligera), **Pattern Matching para `switch`** (definitivo en 21). |
+| **Java 25 (LTS)** | 2025 | **Scoped Values**, simplificaciones de sintaxis, mejoras de rendimiento/AOT. Próximo LTS previsto: **Java 29 (Sept 2027)**. |
+
+### 🔹 Versiones clave de Spring Boot
+
+| Versión | Año | Cambio clave |
+|---|---|---|
+| **2.7** | 2022 | Última rama 2.x (puente de migración). Transición hacia configuración por beans (`SecurityFilterChain`). |
+| **3.0** | Nov 2022 | **Salto de generación**: Java 17 mínimo, Spring Framework 6, **`javax.*` → `jakarta.*`** (Jakarta EE), soporte imágenes nativas GraalVM. |
+| **3.2** | Nov 2023 | **Integración de Virtual Threads** (Java 21): `spring.threads.virtual.enabled=true`, **RestClient**. |
+| **4.0** | Nov 2025 | Basado en **Spring Framework 7**. **Jackson 3 por defecto** (Jackson 2 con transición temporal), modularización, enfoque en null-safety (JSpecify). |
+
+### 🔹 Compatibilidad Java ↔ Spring Boot
+
+| Spring Boot | Java mínimo |
+|---|---|
+| **2.x (2.0–2.7)** | Java 8+ |
+| **3.0 – 3.1** | **Java 17+** |
+| **3.2+** | **Java 17+** (aprovecha mejor Java 21) |
+| **4.0+** | **Java 17+** (Java 21+ recomendable) |
+
+### 🔹 Distinciones comunes (para evitar errores)
+
+| Afirmación imprecisa | Corrección |
+|---|---|
+| *"var apareció en Java 11"* | Apareció en **Java 10**. |
+| *"Records aparecieron en Java 17"* | Definitivos en **Java 16**. |
+| *"Boot 3 creó `SecurityFilterChain`"* | Viene de **Spring Security 5.7+** (Boot 3 lo adopta). |
+| *"Java 21 activa virtual threads en cualquier Boot"* | Requiere **Spring Boot 3.2+** para integración correcta. |
+| *"Todos los `javax` cambian a `jakarta`"* | Solo las **APIs migradas a Jakarta EE**. |
+| *"Boot 4 exige Jackson 3 sin alternativa"* | **Jackson 3 por defecto**; hay transición temporal con Jackson 2 (deprecado). |
+
+### 🔹 Uso real (JetBrains 2025)
+
+**Java 21 (40%)**, **Java 17 (39%)**, **Java 8 (31%)**, **Java 11 (17%)** (*múltiples respuestas; no suman 100%*).
+
+> [!info] **Desarrollo detallado**
+> Explicación ampliada, ejemplos y matices: [[08-Versiones de Java y Spring Boot]].
