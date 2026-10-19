@@ -365,14 +365,14 @@ En mis desarrollos con Spring, la separación estricta de componentes asegura qu
 **Diferencia clave:** `Runnable` no define `start()`. Para lanzar el hilo: `new Thread(runnable).start()`. **Nunca llamar `run()` directamente**: eso lo ejecuta en el hilo actual, no crea un hilo nuevo.
 
 ### 🔹 Ciclo de vida de un hilo (`Thread.State` - Java SE 21)
-| Estado | Descripción |
-|---|---|
-| `NEW` | Creado pero no iniciado (`start()` aún no llamado). |
-| `RUNNABLE` | Ejecutándose en la JVM; puede esperar recursos del SO (CPU). |
-| `BLOCKED` | Bloqueado esperando adquirir un monitor lock (para entrar/reentrar a bloque sincronizado). |
-| `WAITING` | Esperando indefinidamente a que otro hilo realice una acción (`Object.wait()` sin timeout, `Thread.join()` sin timeout, `LockSupport.park()`). |
-| `TIMED_WAITING` | Esperando con tiempo límite (`Thread.sleep(long)`, `Object.wait(long)`, `Thread.join(long)`, `LockSupport.parkNanos/parkUntil`). |
-| `TERMINATED` | Ejecución finalizada (método `run()` terminó). |
+| Estado          | Descripción                                                                                                                                    |     |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| `NEW`           | Creado pero no iniciado (`start()` aún no llamado).                                                                                            |     |
+| `RUNNABLE`      | Ejecutándose en la JVM; puede esperar recursos del SO (CPU).                                                                                   |     |
+| `BLOCKED`       | Bloqueado esperando adquirir un monitor lock (para entrar/reentrar a bloque sincronizado).                                                     |     |
+| `WAITING`       | Esperando indefinidamente a que otro hilo realice una acción (`Object.wait()` sin timeout, `Thread.join()` sin timeout, `LockSupport.park()`). |     |
+| `TIMED_WAITING` | Esperando con tiempo límite (`Thread.sleep(long)`, `Object.wait(long)`, `Thread.join(long)`, `LockSupport.parkNanos/parkUntil`).               |     |
+| `TERMINATED`    | Ejecución finalizada (método `run()` terminó).                                                                                                 |     |
 
 > [!tip] **Nota:** Algunas fuentes antiguas agrupan `BLOCKED/WAITING/TIMED_WAITING` como "en pausa"; en Java moderno son 6 estados diferenciados.
 
