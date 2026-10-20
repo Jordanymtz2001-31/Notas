@@ -6,7 +6,7 @@
         "title": "Avanzar con mis pendiantes si es posible",
         "time": "2026-10-19 17:00",
         "rowNumber": 4,
-        "muted": false
+        "muted": true
       }
     ],
     "02- 📓 Diario/12-Cursos de Ingles.md": [
@@ -20,7 +20,7 @@
     "02- 📓 Diario/10-Curso IBM SkillsBuild.md": [
       {
         "title": "Curso de IBM de [[005-Cursos de Aprendizaje]] #backlog",
-        "time": "2026-10-19 15:00",
+        "time": "2026-10-21 15:00",
         "rowNumber": 4,
         "muted": false
       }
