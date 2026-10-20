@@ -474,3 +474,75 @@ _Principalmente las aplico en la **capa de servicios** junto con la **API de Str
 ✅ 4. Debe exponer el acceso a sus campos mediante Getters y Setters públicos.  
 ✅ 5. (Opcional) Debe implementar la interfaz estándar de 'Serializable'.
 ```
+
+---
+
+## ✅ 23. Buenas Prácticas y Criterio en APIs REST
+
+### 🔹 La idea central: 4 cosas que proteges
+Cada práctica existe para proteger: **datos · seguridad · capacidad de cambiar el código · detección de fallos**. Si no sabes qué riesgo resuelves, la práctica sobra.
+
+### 🔹 Separar responsabilidades e inyección por constructor
+*   **Controller:** recibe HTTP, valida estructura, devuelve respuesta.
+*   **Service:** reglas de negocio y caso de uso.
+*   **Repository:** consulta y persiste datos.
+
+> [!tip] **Inyección por constructor** (Spring Docs)
+> Dependencias **explícitas** y `final`; puedes instanciar el servicio en una prueba **sin arrancar la app**. Es la variante recomendada por Spring. Separa por **responsabilidad real**, no por número de carpetas.
+
+### 🔹 Validación en 3 niveles (no confundir)
+
+| Nivel | Ejemplo | Qué protege |
+| :--- | :--- | :--- |
+| **Entrada** | Cantidad > 0 (`@Positive`) | Formato y valores recibidos |
+| **Negocio** | Solo productos disponibles | Coherencia del caso de uso |
+| **BD** | Correo único / FK válida | Integridad persistida ante concurrencia |
+
+> [!warning] **"JSON válido" ≠ "operación permitida"**
+> Nunca confíes en el `total` del frontend: **recálculalo en el servidor**. OWASP separa controles de entrada de controles de autorización.
+
+### 🔹 Seguridad en 3 niveles: autenticación, autorización y recurso
+`GET /pedidos/825` autenticado y con rol `CLIENTE` **no** demuestra que sea *su* pedido. Cambiar el ID y obtener el de otro es **IDOR**.
+
+> [!danger] **Valida JWT completo**
+> Firma, emisor, audiencia y vigencia — no solo la firma. En microservicios, el gateway ayuda pero **cada servicio** protege sus operaciones.
+
+### 🔹 Configuración y secretos
+```properties
+spring.datasource.password=${DB_PASSWORD}
+```
+Externaliza la config con variables de entorno y perfiles. Nunca credenciales en Git, URLs ni logs. Un perfil `prod` **selecciona** config, **no protege** secretos.
+
+### 🔹 Transacciones: `@Transactional`
+> [!warning] **Límites que preguntan en entrevista**
+> *   **Self-invocation:** método llamando a otro del **mismo objeto** no activa la anotación (proxy).
+> *   **Rollback por defecto:** solo `RuntimeException` y `Error`; las **checked** NO revierten salvo `rollbackFor`.
+> *   Capturar y ocultar el error **rompe** el rollback.
+> *   No revierte pagos en APIs externas ni cambios de otro microservicio.
+
+### 🔹 Migraciones vs `ddl-auto`
+Flyway/Liquibase con `V1__…`, `V2__…`. Nunca `ddl-auto=update` en producción. Un script versionado **no** equivale a poder recuperar datos: los cambios destructivos exigen respaldo y plan.
+
+### 🔹 Errores consistentes con `ProblemDetail`
+Centraliza con `@RestControllerAdvice`; en Spring moderno usa **`ProblemDetail` (RFC 9457)**. Respuesta predecible y **sin** filtrar trazas, SQL ni rutas internas (OWASP).
+
+### 🔹 Pruebas por riesgo
+| Tipo | Qué comprueba |
+| :--- | :--- |
+| **Unitaria** | Cálculos, decisiones, reglas |
+| **Web** | Validación, HTTP, seguridad |
+| **Persistencia** | Consultas, relaciones, restricciones |
+| **Integración** | Componentes y config juntos |
+
+> [!tip] **No `@SpringBootTest` para todo.** Para una regla pura no cargues todo el contexto.
+
+### 🔹 Observabilidad, dependencias y llamadas externas
+*   **Actuator:** métricas y health checks; nunca registres tokens/contraseñas.
+*   **BOM de Spring Boot:** coordina versiones probadas en conjunto; sobrescribir una versión es una **decisión con pruebas**.
+*   **Llamadas externas:** define **timeouts** y **idempotencia** antes de reintentar (un timeout en un `POST` de cobro no confirma que no se procesó).
+
+### 🔹 Lo que NO es obligatorio (criterio)
+Microservicios para todo · una interfaz por clase · Streams siempre · caché en cada consulta lenta · virtual threads asumiendo velocidad · todos los patrones que conoces. **Evalúa el problema antes.**
+
+> [!info] **Desarrollo detallado**
+> Checklist y ejemplos: [[09-Buenas Prácticas en Java y Spring Boot]].
