@@ -19,6 +19,7 @@
 - [x] Cuando mencione que empezaremos un nuevo proyecto entonces que use la plantilla de Poryecto #backlog ✅ 2026-10-02
 - [ ] Recordatorio: No olvides etiquetar a @IBM y usar #IBMSkillsBuild, #AI y #Developer cuando compartas tu logro en tus redes. Curso de [[10-Curso IBM SkillsBuild]] .
 - [ ] Subir a GitGub todas mis personalizaciones de mi Fedora 44.
+- [ ] Aplicar nuevas tecnologias que he visto y guarde en tiktok.
 
 > [!abstract] 💭 Reflexiones y Notas
 >-  En cuanto a mis notas de One Note ya valide que la nota de Repaso de Java esta Corresto.
