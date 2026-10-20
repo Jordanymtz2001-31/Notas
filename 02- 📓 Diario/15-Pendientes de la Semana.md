@@ -9,7 +9,7 @@
 - [x] ⏫ Investigar aplicaciones distribuidas (capas de un sistema en red) 📅 2026-10-18 ✅ 2026-10-19
 - [x] ⏫ Documentar versiones de Spring Boot (último año) y de Java (desde 2020): cuáles tuvieron grandes cambios y por qué ✅ 2026-10-19
 - [x] ⏫ Investigar buenas prácticas de código limpio: herramientas y estándares según tipo de proyecto ✅ 2026-10-20 
-- [ ] ⏫ Investigar SCRUM (al resolverse: proponer minibaúl `METODOLOGIAS`) 📅 2026-10-20
+- [ ] ⏫ Investigar SCRUM (al resolverse: proponer minibaúl `METODOLOGIAS`) 📅 2026-10-21
 
 ### 📆 Agenda de Hoy
 ```tasks
