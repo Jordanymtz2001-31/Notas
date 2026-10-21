@@ -6,13 +6,13 @@
         "title": "Avanzar con mis pendiantes si es posible",
         "time": "2026-10-20 17:00",
         "rowNumber": 4,
-        "muted": false
+        "muted": true
       }
     ],
     "02- 📓 Diario/12-Cursos de Ingles.md": [
       {
         "title": "Seguir aprendiendo el idioma nativo de Ingles [[005-Cursos de Aprendizaje]]",
-        "time": "2026-10-20 15:00",
+        "time": "2026-10-22 15:00",
         "rowNumber": 4,
         "muted": false
       }
