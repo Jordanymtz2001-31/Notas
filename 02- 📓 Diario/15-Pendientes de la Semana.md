@@ -10,7 +10,7 @@
 - [x] ⏫ Documentar versiones de Spring Boot (último año) y de Java (desde 2020): cuáles tuvieron grandes cambios y por qué ✅ 2026-10-19
 - [x] ⏫ Investigar buenas prácticas de código limpio: herramientas y estándares según tipo de proyecto ✅ 2026-10-20 
 - [x] ⏫ Investigar SCRUM (al resolverse: proponer minibaúl `METODOLOGIAS`) 📅 2026-10-21 ✅ 2026-10-21
-- [ ] ⏫ Redactar la investigacion en una nota, la informacion sacada de 2 videos y con ayuda de Gemini Note para sacar info de los videos 📅 2026-10-22 .
+- [x] ⏫ Redactar la investigacion en una nota, la informacion sacada de 2 videos y con ayuda de Gemini Note para sacar info de los videos 📅 2026-10-22 ✅ 2026-10-22
 
 ### 📆 Agenda de Hoy
 ```tasks

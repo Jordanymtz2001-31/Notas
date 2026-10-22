@@ -24,3 +24,4 @@
 - [[Preguntas de Java para entrevistas]]
 - [[Preguntas de Spring para entrevistas]]
 - [[SKILLS]]
+- [[Scrum]]
