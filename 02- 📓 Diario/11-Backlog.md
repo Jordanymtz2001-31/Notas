@@ -2,7 +2,7 @@
 
 ## ☀️ Foco Principal del Día
 *¿Cuál es la única cosa que si logro hoy hará que el día valga la pena?*
-- [ ] Avanzar con mis pendiantes si es posible (@2026-10-21 17:00)
+- [ ] Avanzar con mis pendiantes si es posible (@2026-10-22 17:00)
 
 ## 📝 Tareas de Recordatorios Flotantes (Backlog)
 *Espacio para ideas o pendientes sin fecha fija.*
@@ -20,7 +20,7 @@
 - [ ] Recordatorio: No olvides etiquetar a @IBM y usar #IBMSkillsBuild, #AI y #Developer cuando compartas tu logro en tus redes. Curso de [[10-Curso IBM SkillsBuild]] .
 - [ ] Subir a GitGub todas mis personalizaciones de mi Fedora 44.
 - [ ] Aplicar nuevas tecnologias que he visto y guarde en tiktok.
-- [ ] Seguir descargando el Blu-Ray de ## Shingeki no Kyojin Tercera Temporada.
+- [ ] Seguir descargando el Blu-Ray de ## Shingeki no Kyojin Cuarta Temporada.
 
 > [!abstract] 💭 Reflexiones y Notas
 >-  En cuanto a mis notas de One Note ya valide que la nota de Repaso de Java esta Corresto.
