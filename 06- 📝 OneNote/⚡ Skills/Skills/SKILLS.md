@@ -38,3 +38,65 @@
 > [!example] **Caso de Uso Común**
 > Ideal para mapear casos de uso complejos y definir qué componentes se necesitan en el sistema.
 > * **🎯 Ejemplo de Prompt:** *"Quiero crear la funcionalidad para agregar productos al carrito de compras, ¿me puedes ayudar a planificar el flujo completo usando la skill `brainstorming`?"*
+
+---
+
+## ⚡ 4. Skills instaladas en opencode (globales)
+
+> [!info] **Estado al 2026-10-27**
+> 10 skills instaladas en `~/.config/opencode/skills/` y `~/.agents/skills/` (rutas globales que opencode descubre; aplican a todos los proyectos).
+> Las de origen externo se instalaron con el CLI oficial de skills.sh: `npx skills add <repo> --skill <nombre> --agent opencode -g -y`.
+> opencode las carga al arrancar la sesión: hay que abrir una sesión nueva para verlas.
+
+### 🔍 `find-skills`
+* **Propósito:** Meta-skill: descubre e instala otras skills del ecosistema cuando aparece una tarea que requiere una capacidad especial ("¿hay una skill para X?").
+* **Fuente:** `vercel-labs/skills` (oficial de Vercel) — 4.1M de instalaciones, auditorías Socket y Agent Trust Hub en Pass.
+* **Ubicación:** `~/.agents/skills/`.
+
+### 🧠 `brainstorming` *(instalada)*
+* **Propósito:** Consultor obligatorio antes de cualquier trabajo creativo: descubre qué se quiere realmente antes de construir. Es la versión oficial de la skill descrita en la sección 3.
+* **Fuente:** `obra/superpowers`.
+* **Ubicación:** `~/.config/opencode/skills/`.
+
+### 📝 `writing-plans`
+* **Propósito:** Escribe planes de implementación estructurados antes de tareas de varios pasos que ya tienen requisitos definidos.
+* **Fuente:** `obra/superpowers`.
+* **Ubicación:** `~/.agents/skills/`.
+
+### ▶️ `executing-plans`
+* **Propósito:** Ejecuta un plan paso a paso con puntos de verificación en cada etapa. Diseñada para usarse en pareja con `writing-plans`.
+* **Fuente:** `obra/superpowers`.
+* **Ubicación:** `~/.agents/skills/`.
+
+### 🐞 `systematic-debugging`
+* **Propósito:** Depuración con método: observar → hipótesis → probar → verificar, antes de proponer cualquier arreglo. Evita ediciones al azar.
+* **Fuente:** `obra/superpowers`.
+* **Ubicación:** `~/.agents/skills/`.
+
+### 🧪 `test-driven-development`
+* **Propósito:** Ciclo **TDD**: escribir primero el test que falla, implementar lo mínimo que lo pase, verificar y refactorizar.
+* **Fuente:** `obra/superpowers`.
+* **Ubicación:** `~/.agents/skills/`.
+
+### 🌐 `webapp-testing` *(instalada)*
+* **Propósito:** Toolkit con Playwright para interactuar y probar aplicaciones web locales en un **navegador real**: verificar frontend, depurar comportamiento de UI, capturar pantallazas y ver logs. Es la versión oficial de la skill descrita en la sección 1.
+* **Fuente:** `anthropics/skills` (oficial de Anthropic).
+* **Ubicación:** `~/.agents/skills/`.
+
+### 🎨 `frontend-design`
+* **Propósito:** Guía de **diseño visual distintivo e intencional** al construir UI nueva o rediseñar una existente: paleta, tipografía y layout que no se lean como plantillas genéricas. Sustituye a `interface-design` del catálogo.
+* **Fuente:** `anthropics/skills` (oficial de Anthropic).
+* **Ubicación:** `~/.config/opencode/skills/`.
+
+### ⚠️ `error-handling-patterns` *(creada para este entorno)*
+* **Propósito:** Revisa y refuerza el **manejo de excepciones** del backend Spring Boot (`GlobalExceptionHandler`, excepciones custom), contrastando con la nota [[02-Manejo de Excepciones en Spring Boot]] del vault. Es una adaptación propia de la descripción de la sección 2.
+* **Fuente:** creada en este entorno.
+* **Ubicación:** `~/.config/opencode/skills/`.
+
+### 📚 `buscar-en-vault`
+* **Propósito:** Consulta de **solo lectura** del vault Obsidian: busca notas relacionadas con un tema, prioriza `03-Reflexiones/` y `06- 📝 OneNote/`, y devuelve hasta 5 con su ruta. Nunca escribe ni modifica el vault.
+* **Fuente:** creada en este entorno.
+* **Ubicación:** `~/.config/opencode/skills/`.
+
+> [!note] **Skills del catálogo aún NO instaladas**
+> `django-expert`, `api-design-principles` y `changelog-generator` siguen siendo solo descripciones de las secciones 1‑3; `interface-design` fue sustituida por `frontend-design`.
