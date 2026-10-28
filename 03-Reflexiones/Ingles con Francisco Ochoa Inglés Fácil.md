@@ -223,7 +223,7 @@ Conceptos de inglés de [[12-Cursos de Ingles]]
 >
 >
 
- is very special, every day walter prepart a diferent plats, on mondey his cooks a argentinian food, on tuesday she do not cokind arrgentinian food, because he cooks chilean food on tuesday at on  saturday,  on wesdnesday he does'nt cook chilean food because he cook colombian food, on thurday he cook costa rica food, he is moder loves costa rican food, on friday is mexican food, good restaurant 
+ is very special, every day walter prepart a diferent plat, on mondey he cooks a argentinian food, on tuesday he does'nt  cook arrgentinian food, because he cooks chilean food on tuesday and on  saturday,  on wesdnesday he does'nt cook chilean food because he cooks colombian food, on thurday he cooks costa rica food, his mother loves costa rican food, on friday his mexican friends,  go to the restaurant and walter preparate mexica food, he prepares mexican food twice a week on friday and on sunday 
 ---
 
 ## 🚀 Acciones a tomar (Next Actions)
