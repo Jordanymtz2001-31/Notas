@@ -395,13 +395,14 @@ En mis desarrollos con Spring, la separación estricta de componentes asegura qu
 
 ### 🔹 Versiones LTS de Java (Cambios más importantes)
 
-| Versión | Año | Cambio clave |
-|---|---|---|
-| **Java 8 (LTS)** | 2014 | **Lambdas y Streams**. Procesamiento declarativo de colecciones. |
-| **Java 11 (LTS)** | 2018 | Punto de migración tras Java 8. `var` llegó en **Java 10**, no en 11 (11 añade `var` en parámetros de lambdas). |
+| Versión           | Año  | Cambio clave                                                                                                                                                    |
+| ----------------- | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Java 8 (LTS)**  | 2014 | **Lambdas y Streams**. Procesamiento declarativo de colecciones.                                                                                                |
+| **Java 11 (LTS)** | 2018 | Punto de migración tras Java 8. `var` llegó en **Java 10**, no en 11 (11 añade `var` en parámetros de lambdas).                                                 |
 | **Java 17 (LTS)** | 2021 | **Records** (Java 16), **Pattern Matching `instanceof`** (Java 16), **Text Blocks** (Java 15), **Switch expressions** (Java 14), **Clases selladas** (Java 17). |
-| **Java 21 (LTS)** | 2023 | **Virtual Threads** (concurrencia ligera), **Pattern Matching para `switch`** (definitivo en 21). |
-| **Java 25 (LTS)** | 2025 | **Scoped Values**, simplificaciones de sintaxis, mejoras de rendimiento/AOT. Próximo LTS previsto: **Java 29 (Sept 2027)**. |
+| **Java 21 (LTS)** | 2023 | **Virtual Threads** (concurrencia ligera), **Pattern Matching para `switch`** (definitivo en 21).                                                               |
+| **Java 25 (LTS)** | 2025 | **Scoped Values**, simplificaciones de sintaxis, mejoras de rendimiento/AOT. Próximo LTS previsto: **Java 29 (Sept 2027)**.                                     |
+|                   |      |                                                                                                                                                                 |
 
 ### 🔹 Versiones clave de Spring Boot
 
