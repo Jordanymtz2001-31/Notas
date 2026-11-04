@@ -52,7 +52,7 @@ Aparte de programar, disfruto de:
 
 [![TikTok](https://coolreadme.xyz/api/tiktok-card?title=Optimization%20of%20linux%20fedora%2044&sub=open%20source%20now&user=Jordanymtz2001-31&img=https%3A%2F%2Fwww.tiktok.com%2F%40jordanigarciamartinez2%2Fvideo%2F7682887429732207893%3Fis_from_webapp%3D1%26sender_device%3Dpc%26web_id%3D7699210023625557511&skills=TypeScript%2CLinux%2CPython)](https://www.tiktok.com/@jordanigarciamartinez2?is_from_webapp=1&sender_device=pc)
 
-![Now Listening](https://coolreadme.xyz/api/now-listening?song=Ashbla%20-%20Ultra%20Slowed&artist=MitroWave&style=wave&theme=dark&album=Ashbla)
+![Now Listening](https://coolreadme.xyz/api/now-listening?song=Ashblade&artist=MitroWave&album=Ashblade&style=wave&theme=dark&img=https%3A%2F%2Fimage-cdn-ak.spotifycdn.com%2Fimage%2Fab67616d00001e0295a434ed0ade38881860d4b1)
 
 ### 💬 Conecta conmigo
 
