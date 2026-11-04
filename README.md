@@ -1,5 +1,4 @@
-## Hola, mi nombre es Jordany 👋
-![Hero Banner](https://coolreadme.xyz/api/hero-banner?user=Jordanymtz2001-31&theme=dark&accent=%23EC4899&title=Your%20Name&subtitle=Full-stack%20engineer%20%C2%B7%20building%20in%20public)
+![Hero Banner](https://coolreadme.xyz/api/hero-banner?title=Jordany&subtitle=Backend+Java+y+Python+%C2%B7+aprendiendo+en+p%C3%BAblico&theme=dark&accent=%23EC4899)
 
 ![Hacker](https://coolreadme.xyz/api/hacker?user=Jordanymtz2001-31&status=MERGED%20v6.12&accent=%2300FF88)
 
