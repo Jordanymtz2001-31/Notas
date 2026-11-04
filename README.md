@@ -19,13 +19,9 @@
 ### Currently
 [![TikTok](https://coolreadme.xyz/api/tiktok-card?title=Optimization%20of%20linux%20fedora%2044&sub=open%20source%20now&user=Jordanymtz2001-31&img=https%3A%2F%2Fwww.tiktok.com%2F%40jordanigarciamartinez2%2Fvideo%2F7682887429732207893%3Fis_from_webapp%3D1%26sender_device%3Dpc%26web_id%3D7699210023625557511&skills=TypeScript%2CLinux%2CPython)](https://www.tiktok.com/@jordanigarciamartinez2?is_from_webapp=1&sender_device=pc)
 
-![now listening](https://coolreadme.xyz/api/now-listening?song=Add%20your%20Spotify&artist=Jordanymtz2001-31&album=placeholder&style=spotify)
+![Now Listening](https://coolreadme.xyz/api/now-listening?song=Ashbla%20-%20Ultra%20Slowed&artist=MitroWave&style=wave&theme=dark&album=Ashbla)
 
-![Jordanymtz2001-31 cinematic](https://coolreadme.xyz/api/cinematic?user=Jordanymtz2001-31&status=Product%20engineer&focus=Colecci%C3%B3n%20personal%20de%20wallpapers%20(anime%2C%20ciudad%20nocturna%2C%20f%E2%80%A6&style=poster&align=left&tone=ink)
 
-### Connect
-
-![Connect with Jordanymtz2001-31](https://coolreadme.xyz/api/social-card?user=Jordanymtz2001-31&title=Let's%20talk&sub=DMs%20open&skills=&style=instagram)
 
 ### Stack
 
@@ -41,3 +37,12 @@
 
 
 <sub>Built with [coolreadme.xyz](https://coolreadme.xyz/u/Jordanymtz2001-31) — one-click GitHub README cards.</sub>
+
+
+<picture data-importer="pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jordanymtz2001-31/Jordanymtz2001-31/pacman-output/bomberman-contribution-graph-dark.svg?game=bomberman">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jordanymtz2001-31/Jordanymtz2001-31/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Jordanymtz2001-31/Jordanymtz2001-31/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
+</picture>
+
+###
