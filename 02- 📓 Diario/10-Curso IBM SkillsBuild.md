@@ -2,7 +2,7 @@
 
 ## ☀️ Foco Principal del Día
 *¿Cuál es la única cosa que si logro hoy hará que el día valga la pena?*
-- [ ] Curso de IBM de [[005-Cursos de Aprendizaje]] (@2026-11-04 15:00)#backlog 
+- [x] Curso de IBM de [[005-Cursos de Aprendizaje]] (@2026-11-04 15:00)#backlog ✅ 2026-11-03
 
 ## 📝 Tareas
 - [x] 14:00 Entrar a la plataforma y anotar el enlace en [[005-Cursos de Aprendizaje]] 📅 2026-08-24 ✅ 2026-08-24
