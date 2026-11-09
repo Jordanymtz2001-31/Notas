@@ -5,7 +5,7 @@
 5. [x] ⏫ Preguntar a Julio Gamboa de IDs o mandar correo a Cesar por correo si ire mañana precencialmente o en linea. ✅ 2026-11-09
 6. [x] ⏫ Pedirle a la ia que me de recomendaciones de que preguntarle a lider el dia de mañana. ✅ 2026-11-09
 7. [x] 🔼 Revisar los papeles que me dio ids y entender que es que. ✅ 2026-11-09
-8. [ ] ⏫ Revisar los acceso de la APP de consultor, Intranet, I-Talent de IDs.
+8. [ ] ⏫ Revisar los acceso de la APP de consultor y I-Talent de IDs ya que no me jalan los accesos.
 9. [x] ⏫ Revisar las ligas que contiene el cuaderno que me dieron de IDS. ✅ 2026-11-09
 10. [ ] ⏫ Realizar los cursos que mando Citi Banamex que estan en el correo.
 
