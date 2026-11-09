@@ -3,7 +3,8 @@
 3. [ ] ⏫ Revisar y tener en orden los correos, 2 mios, 1 de enucom, 1 idsComercial, 1 Citi banamex
 4. [x] ⏫ Que la ia me revise mi docuemnto del contrato. ✅ 2026-11-09
 5. [x] ⏫ Preguntar a Julio Gamboa de IDs o mandar correo a Cesar por correo si ire mañana precencialmente o en linea. ✅ 2026-11-09
-6. [ ] ⏫ Pedirle a la ia que me de recomendaciones de que preguntarle a lider el dia de mañana.
+6. [x] ⏫ Pedirle a la ia que me de recomendaciones de que preguntarle a lider el dia de mañana. ✅ 2026-11-09
+7. [ ] 🔼 Revisar los papeles que me dio ids y entender que es que.
 
 ## Pendientes de la semana
 1. [ ]  🔼 Revisar el corte de cabello
