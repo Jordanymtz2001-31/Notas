@@ -5,6 +5,8 @@
 5. [x] ⏫ Preguntar a Julio Gamboa de IDs o mandar correo a Cesar por correo si ire mañana precencialmente o en linea. ✅ 2026-11-09
 6. [x] ⏫ Pedirle a la ia que me de recomendaciones de que preguntarle a lider el dia de mañana. ✅ 2026-11-09
 7. [ ] 🔼 Revisar los papeles que me dio ids y entender que es que.
+8. [ ] ⏫ Revisar los acceso de la APP de consultor, Intranet, I-Talent de IDs.
+9. [ ] ⏫ Revisar las ligas que contiene el cuaderno que me dieron de IDS.
 
 ## Pendientes de la semana
 1. [ ]  🔼 Revisar el corte de cabello
