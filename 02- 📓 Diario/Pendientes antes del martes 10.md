@@ -4,13 +4,14 @@
 4. [x] ⏫ Que la ia me revise mi docuemnto del contrato. ✅ 2026-11-09
 5. [x] ⏫ Preguntar a Julio Gamboa de IDs o mandar correo a Cesar por correo si ire mañana precencialmente o en linea. ✅ 2026-11-09
 6. [x] ⏫ Pedirle a la ia que me de recomendaciones de que preguntarle a lider el dia de mañana. ✅ 2026-11-09
-7. [ ] 🔼 Revisar los papeles que me dio ids y entender que es que.
+7. [x] 🔼 Revisar los papeles que me dio ids y entender que es que. ✅ 2026-11-09
 8. [ ] ⏫ Revisar los acceso de la APP de consultor, Intranet, I-Talent de IDs.
 9. [ ] ⏫ Revisar las ligas que contiene el cuaderno que me dieron de IDS.
+10. [ ] ⏫ Realizar los cursos que mando Citi Banamex que estan en el correo.
 
 ## Pendientes de la semana
 1. [ ]  🔼 Revisar el corte de cabello
 2. [ ] 🔼 Organizarme mis abitos de las mañanas
 3. [ ] 🔼 Organizar los cursos o pendientes que tengo en Obsidian
 4. [x] 🔼 Trabajando en bancos se puede ocupar modelos de ia? ✅ 2026-11-09
-5. [ ] 🔼 Descargar la aplicaciones de escritorio de los correos
+5. [ ] 🔼 Descargar la aplicaciones de escritorio de los correos mios y empresariales con notificaciones en la lap.
