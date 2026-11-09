@@ -6,7 +6,7 @@
 6. [x] ⏫ Pedirle a la ia que me de recomendaciones de que preguntarle a lider el dia de mañana. ✅ 2026-11-09
 7. [x] 🔼 Revisar los papeles que me dio ids y entender que es que. ✅ 2026-11-09
 8. [ ] ⏫ Revisar los acceso de la APP de consultor, Intranet, I-Talent de IDs.
-9. [ ] ⏫ Revisar las ligas que contiene el cuaderno que me dieron de IDS.
+9. [x] ⏫ Revisar las ligas que contiene el cuaderno que me dieron de IDS. ✅ 2026-11-09
 10. [ ] ⏫ Realizar los cursos que mando Citi Banamex que estan en el correo.
 
 ## Pendientes de la semana
