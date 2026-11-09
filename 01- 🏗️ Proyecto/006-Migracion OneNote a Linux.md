@@ -26,4 +26,4 @@
 ## ⏳ Bitácora de Avance
 *Notas breves sobre qué se hizo en cada fecha.*
 - **2026-08-20**: Creación del proyecto y definición de objetivos.
-- **2026-08-21**: Se uso un plugin de Obsidian para iniciar sesion en OneNote para importar mis notas. Al mismo tiempo se refactorizo con ayuda de OpenCode pero falta revisar que este bien estructurado para eso ya esta [[11-Backlog]] en donde esta anotado.
+- **2026-08-21**: Se uso un plugin de Obsidian para iniciar sesion en OneNote para importar mis notas. Al mismo tiempo se refactorizo con ayuda de OpenCode pero falta revisar que este bien estructurado para eso ya esta [[11-Backlog Personal]] en donde esta anotado.
