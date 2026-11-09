@@ -8,4 +8,5 @@
 1. [ ]  🔼 Revisar el corte de cabello
 2. [ ] 🔼 Organizarme mis abitos de las mañanas
 3. [ ] 🔼 Organizar los cursos o pendientes que tengo en Obsidian
-4. [ ] 
+4. [ ] 🔼 Trabajando en bancos se puede ocupar modelos de ia?
+5. [ ] ⏫ 
