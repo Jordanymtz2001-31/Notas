@@ -2,7 +2,7 @@
 2. [x] Sacar el papel que falta que me pidio mi reclutadora. ✅ 2026-11-09
 3. [ ] ⏫ Revisar y tener en orden los correos, 2 mios, 1 de enucom, 1 idsComercial, 1 Citi banamex
 4. [x] ⏫ Que la ia me revise mi docuemnto del contrato. ✅ 2026-11-09
-5. [ ] ⏫ Preguntar a Julio Gamboa de IDs o mandar correo a Cesar por correo si ire mañana precencialmente o en linea.
+5. [x] ⏫ Preguntar a Julio Gamboa de IDs o mandar correo a Cesar por correo si ire mañana precencialmente o en linea. ✅ 2026-11-09
 6. [ ] ⏫ Pedirle a la ia que me de recomendaciones de que preguntarle a lider el dia de mañana.
 
 ## Pendientes de la semana
