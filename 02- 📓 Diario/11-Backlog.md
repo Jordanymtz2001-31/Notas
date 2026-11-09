@@ -23,6 +23,7 @@
 - [ ] Seguir descargando el Blu-Ray de ## Shingeki no Kyojin Cuarta Temporada.
 - [ ] Subir a Tiktok el video sobre la actualizacion de mi GitHub. #backlog 
 - [ ] Dar una regla a Obsidiana sobre que solo aga push solo cuando detecte cambios. #backlog 
+- [ ] Contratar Internet de Total play de 100 megas con un costo de $400 y $450 es un aproximado de instalación, **Ojo**: El contrato es de 1 año, si cancelo antes hay una penalizacion de mas de mil pesos.
 > [!abstract] 💭 Reflexiones y Notas
 >-  En cuanto a mis notas de One Note ya valide que la nota de Repaso de Java esta Corresto.
 >- Validacion de MicroServicio exitosa
