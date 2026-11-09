@@ -14,4 +14,4 @@
 2. [ ] 🔼 Organizarme mis abitos de las mañanas
 3. [ ] 🔼 Organizar los cursos o pendientes que tengo en Obsidian
 4. [x] 🔼 Trabajando en bancos se puede ocupar modelos de ia? ✅ 2026-11-09
-5. [ ] 🔼 Descargar la aplicaciones de escritorio de los correos mios y empresariales con notificaciones en la lap.
+5. [x] 🔼 Descargar la aplicaciones de escritorio de los correos mios y empresariales con notificaciones en la lap. ✅ 2026-11-09
