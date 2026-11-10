@@ -62,7 +62,7 @@ fuente_origen: Con la IA de Google
 >
 > ## 📦 Docker
 > Control de procesos y dominios en segundo plano
->
+>Para ves todas la imagenes aun que no esten corriendo `podman images`
 > * Iniciar un servicio (##Oracle): `podman start nombre`
 > * Detener un servicio: `podman stop nombre`
 > * Ver el estado: `podman ps`
