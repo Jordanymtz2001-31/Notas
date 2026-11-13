@@ -16,3 +16,5 @@
 4. [x] 🔼 Trabajando en bancos se puede ocupar modelos de ia? ✅ 2026-11-09
 5. [x] 🔼 Descargar la aplicaciones de escritorio de los correos mios y empresariales con notificaciones en la lap. ✅ 2026-11-09
 6. [ ] 🔼 Preguntar con el compañero del proyecto y con la reclitadora de isd sobre el tiempo en el que estare trabajando, pero antes leer todo el contrato. Y si es que solo 3 meses, checar con los de ENUCOM.
+7. [ ] 🔼 Avanzar con el curso de Banamex
+8. [ ] 
