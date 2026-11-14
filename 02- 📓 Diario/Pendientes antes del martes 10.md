@@ -17,5 +17,5 @@
 5. [x] 🔼 Descargar la aplicaciones de escritorio de los correos mios y empresariales con notificaciones en la lap. ✅ 2026-11-09
 6. [x] 🔼 Preguntar con el compañero del proyecto y con la reclitadora de isd sobre el tiempo en el que estare trabajando, pero antes leer todo el contrato. Y si es que solo 3 meses, checar con los de ENUCOM. ✅ 2026-11-13
 7. [x] 🔼 Avanzar con el curso de Banamex ✅ 2026-11-13
-8. [ ] Instalar windows desde una maquina virtual en mi equipo por cuestion de los reportes de oras laboradas por semana
-9. [ ] 
+8. [x] Comprobar si se puede editar la plantilla desde el Excel de Microsoft: **Si se puede pero con mi cuenta personal por que la de IDS no me deja** ✅ 2026-11-14
+9. [ ] Avanzar con los cursos de IDS
