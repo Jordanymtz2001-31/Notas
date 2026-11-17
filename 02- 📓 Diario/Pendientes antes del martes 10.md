@@ -20,3 +20,5 @@
 8. [x] Comprobar si se puede editar la plantilla desde el Excel de Microsoft: **Si se puede pero con mi cuenta personal por que la de IDS no me deja** ✅ 2026-11-14
 9. [ ] Avanzar con los cursos de IDS
 10. [ ] Checar a quien le tengo que mandar mis avances de mis cursos (Resource Manager).
+11. [ ] Rama de Develomep es la antigua
+12. [ ] Hcaer lo logs 
