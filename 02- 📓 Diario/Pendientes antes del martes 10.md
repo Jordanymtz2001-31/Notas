@@ -22,4 +22,4 @@
 10. [ ] Checar a quien le tengo que mandar mis avances de mis cursos (Resource Manager).
 11. [ ] Rama de Develomep es la antigua junto con el archido de Edocta
 12. [ ] Hcaer lo logs 
-13. [ ] Omar ñe prgunto para cambio de correo para mi dominio banamex
+13. [x] Omar ñe prgunto para cambio de correo para mi dominio banamex ✅ 2026-11-17
