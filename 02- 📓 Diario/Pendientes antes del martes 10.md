@@ -11,7 +11,7 @@
 
 ## Pendientes de la semana
 1. [ ]  🔼 Revisar el corte de cabello
-2. [ ] 🔼 Organizarme mis abitos de las mañanas
+2. [x] 🔼 Organizarme mis abitos de las mañanas ✅ 2026-11-21
 3. [ ] 🔼 Organizar los cursos o pendientes que tengo en Obsidian
 4. [x] 🔼 Trabajando en bancos se puede ocupar modelos de ia? ✅ 2026-11-09
 5. [x] 🔼 Descargar la aplicaciones de escritorio de los correos mios y empresariales con notificaciones en la lap. ✅ 2026-11-09
@@ -19,7 +19,8 @@
 7. [x] 🔼 Avanzar con el curso de Banamex ✅ 2026-11-13
 8. [x] Comprobar si se puede editar la plantilla desde el Excel de Microsoft: **Si se puede pero con mi cuenta personal por que la de IDS no me deja** ✅ 2026-11-14
 9. [ ] Avanzar con los cursos de IDS
-10. [ ] Checar a quien le tengo que mandar mis avances de mis cursos (Resource Manager).
-11. [ ] Rama de Develomep es la antigua junto con el archido de Edocta
-12. [ ] Hcaer lo logs 
-13. [x] Omar ñe prgunto para cambio de correo para mi dominio banamex ✅ 2026-11-17
+10. [ ] Preguntar sobre el FIrmado del PDF que estan en los cursos de IDS
+11. [ ] Checar a quien le tengo que mandar mis avances de mis cursos (Resource Manager).
+12. [x] Rama de Develomep es la antigua junto con el archido de Edocta ✅ 2026-11-21
+13. [x] Hcaer lo logs ✅ 2026-11-21
+14. [x] Omar ñe prgunto para cambio de correo para mi dominio banamex ✅ 2026-11-17
