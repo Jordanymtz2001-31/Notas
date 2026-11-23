@@ -24,3 +24,4 @@
 12. [x] Rama de Develomep es la antigua junto con el archido de Edocta ✅ 2026-11-21
 13. [x] Hcaer lo logs ✅ 2026-11-21
 14. [x] Omar ñe prgunto para cambio de correo para mi dominio banamex ✅ 2026-11-17
+15. [ ] Para cambio de contraseña del SSO, comunicarme con el equipo de onboarding de IDs
