@@ -10,7 +10,7 @@
 10. [x] ⏫ Realizar los cursos que mando Citi Banamex que estan en el correo. ✅ 2026-11-11
 
 ## Pendientes de la semana
-1. [ ]  🔼 Revisar el corte de cabello
+1. [x] 🔼 Revisar el corte de cabello ✅ 2026-10-17
 2. [x] 🔼 Organizarme mis abitos de las mañanas ✅ 2026-11-21
 3. [ ] 🔼 Organizar los cursos o pendientes que tengo en Obsidian
 4. [x] 🔼 Trabajando en bancos se puede ocupar modelos de ia? ✅ 2026-11-09
