@@ -18,12 +18,14 @@
 6. [x] 🔼 Preguntar con el compañero del proyecto y con la reclitadora de isd sobre el tiempo en el que estare trabajando, pero antes leer todo el contrato. Y si es que solo 3 meses, checar con los de ENUCOM. ✅ 2026-11-13
 7. [x] 🔼 Avanzar con el curso de Banamex ✅ 2026-11-13
 8. [x] Comprobar si se puede editar la plantilla desde el Excel de Microsoft: **Si se puede pero con mi cuenta personal por que la de IDS no me deja** ✅ 2026-11-14
-9. [ ] Avanzar con los cursos de IDS
-10. [ ] Preguntar sobre el FIrmado del PDF que estan en los cursos de IDS
-11. [x] Checar a quien le tengo que mandar mis avances de mis cursos (Resource Manager). ✅ 2026-11-24
-12. [x] Rama de Develomep es la antigua junto con el archido de Edocta ✅ 2026-11-21
-13. [x] Hcaer lo logs ✅ 2026-11-21
-14. [x] Omar ñe prgunto para cambio de correo para mi dominio banamex ✅ 2026-11-17
-15. [ ] Para cambio de contraseña del SSO, comunicarme con el equipo de onboarding de IDs
-16. [ ] Para incidentes de equipo, correo electronico, repos, seguridad u otros con: it911 o https://it911.com.mx/
-17. [ ] Preguntar con jordy como pude tener cuenta de Copilot
+9. [ ] Preguntar sobre el FIrmado del PDF que estan en los cursos de IDS
+10. [x] Checar a quien le tengo que mandar mis avances de mis cursos (Resource Manager). ✅ 2026-11-24
+11. [x] Rama de Develomep es la antigua junto con el archido de Edocta ✅ 2026-11-21
+12. [x] Hcaer lo logs ✅ 2026-11-21
+13. [x] Omar ñe prgunto para cambio de correo para mi dominio banamex ✅ 2026-11-17
+14. [ ] Para cambio de contraseña del SSO, comunicarme con el equipo de onboarding de IDs
+15. [ ] Para incidentes de equipo, correo electronico, repos, seguridad u otros con: it911 o https://it911.com.mx/
+16. [x] Preguntar con jordy como pude tener cuenta de Copilot ✅ 2026-11-26
+17. [ ] Realizar el levantamiento del CMP de jafroj.
+18. [ ] Ver si puedo Avanzar con los cursos de IDS sino pasarme al codigo.
+19. [ ] 
