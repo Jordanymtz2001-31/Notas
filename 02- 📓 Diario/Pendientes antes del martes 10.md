@@ -26,6 +26,6 @@
 14. [ ] Para cambio de contraseña del SSO, comunicarme con el equipo de onboarding de IDs
 15. [ ] Para incidentes de equipo, correo electronico, repos, seguridad u otros con: it911 o https://it911.com.mx/
 16. [x] Preguntar con jordy como pude tener cuenta de Copilot ✅ 2026-11-26
-17. [ ] Realizar el levantamiento del CMP de jafroj.
+17. [x] Realizar el levantamiento del CMP de jafroj. ✅ 2026-11-26
 18. [ ] Ver si puedo Avanzar con los cursos de IDS sino pasarme al codigo.
 19. [ ] 
